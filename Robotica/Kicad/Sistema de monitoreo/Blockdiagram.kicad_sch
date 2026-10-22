@@ -1,0 +1,188 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "ff435f17-68cc-471b-b154-6d7cd7936ae2")
+	(paper "A4")
+	(lib_symbols)
+	(text_box "ESP32 C3 WROOM\n"
+		(exclude_from_sim no)
+		(at 109.22 71.12 0)
+		(size 17.78 17.78)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "1b72335c-efaa-4c1b-bd35-c1732b40e1ac")
+	)
+	(text_box "TP4056\n"
+		(exclude_from_sim no)
+		(at 91.44 54.61 0)
+		(size 11.43 5.08)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "2bc15d85-5bad-4bb4-a170-9de233b42026")
+	)
+	(text_box "USB tipo C\n"
+		(exclude_from_sim no)
+		(at 67.31 54.61 0)
+		(size 20.32 10.16)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "3667892d-449d-463e-8c49-aaa0c1dc7f7c")
+	)
+	(text_box "usb data+- y gnd"
+		(exclude_from_sim no)
+		(at 91.44 62.23 0)
+		(size 8.89 7.62)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "3f208556-0a89-4906-8c3e-bf29625fe1c8")
+	)
+	(text_box "TPS63020\n"
+		(exclude_from_sim no)
+		(at 105.41 54.61 0)
+		(size 16.51 5.08)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "5b72eeef-0484-448d-a74d-15c9568f7e91")
+	)
+	(text_box "Boton RST\n-> EN"
+		(exclude_from_sim no)
+		(at 93.98 82.55 0)
+		(size 12.7 6.35)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "807041d0-4d47-4dbd-bc9b-c22492574993")
+	)
+	(text_box "Boton Boot\n-> GPIO8\n\n"
+		(exclude_from_sim no)
+		(at 93.98 74.93 0)
+		(size 12.7 6.35)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "cfdccaab-987d-41e4-b076-cf0fdf6a114a")
+	)
+	(text_box "Protecciones "
+		(exclude_from_sim no)
+		(at 106.68 64.77 0)
+		(size 20.32 3.81)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "d652dbd2-56f4-4476-9653-0e4bf8ce2e34")
+	)
+	(text_box "Comunicacion I2c con\n sensor"
+		(exclude_from_sim no)
+		(at 134.62 72.39 0)
+		(size 15.24 10.16)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "e4a980b0-831b-42a7-8a0d-199580712c86")
+	)
+)

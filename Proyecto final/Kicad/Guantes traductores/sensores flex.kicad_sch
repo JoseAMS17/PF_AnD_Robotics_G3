@@ -1,0 +1,5169 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "9451b304-6c0b-41fd-b03f-d0c8a5817a67")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Amplifier_Operational:LMV324"
+			(pin_names
+				(offset 0.127)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "LMV324"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.27 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lmv324.pdf"
+				(at 1.27 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Quad Low-Voltage Rail-to-Rail Output Operational Amplifier, SOIC-14/SSOP-14"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "quad opamp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOIC*3.9x8.7mm*P1.27mm* DIP*W7.62mm* TSSOP*4.4x5mm*P0.65mm* SSOP*5.3x6.2mm*P0.65mm* MSOP*3x3mm*P0.5mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LMV324_1_1"
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "LMV324_2_1"
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "LMV324_3_1"
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "LMV324_4_1"
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "LMV324_5_1"
+				(pin power_in line
+					(at -2.54 7.62 270)
+					(length 3.81)
+					(name "V+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 -7.62 90)
+					(length 3.81)
+					(name "V-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Connector:Conn_01x02_Pin"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x02_Pin"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x02, script generated"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x02_Pin_1_1"
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 0.8636 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:C"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 71.12 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0fb65fb5-5d59-4fd7-9890-88699e9a3e8f")
+	)
+	(junction
+		(at 105.41 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1269c55c-ed17-4dd1-aaf9-30d39dcbfb82")
+	)
+	(junction
+		(at 74.93 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2121bf9c-20eb-4fb1-9040-17de30f43a63")
+	)
+	(junction
+		(at 167.64 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "22850435-4c5c-4e0b-b8bf-71ca1eaf5f33")
+	)
+	(junction
+		(at 29.21 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "25cf0620-ac81-44fa-aec3-a6af0964a5a6")
+	)
+	(junction
+		(at 105.41 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "417a8cac-e1f2-4a9b-925c-e67a111e5e59")
+	)
+	(junction
+		(at 71.12 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "464b3907-a362-4443-bbd3-d2fe13642195")
+	)
+	(junction
+		(at 40.64 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4b60c075-35ab-4eb9-bab6-6a6ec01683d6")
+	)
+	(junction
+		(at 135.89 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "69847068-121c-45c6-a32e-c5a61629c392")
+	)
+	(junction
+		(at 93.98 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6cff2a3c-695b-429c-87a3-06b3902e472e")
+	)
+	(junction
+		(at 43.18 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6e835b13-59ac-4f5a-8791-067f50f82696")
+	)
+	(junction
+		(at 93.98 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "77a4c942-c305-4f5e-b1f6-1bb2b1432c19")
+	)
+	(junction
+		(at 104.14 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7a16a391-da04-4215-9c53-71c7502d2b35")
+	)
+	(junction
+		(at 57.15 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7f08059f-4fab-4ed2-84c6-3aeb687dfb9c")
+	)
+	(junction
+		(at 132.08 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "81b1c2d4-c696-4153-8642-4d8a71481d25")
+	)
+	(junction
+		(at 44.45 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "81cc69f0-d923-4f4b-bd55-bd25ccac43f7")
+	)
+	(junction
+		(at 171.45 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9256fc3d-f87e-4f24-bac4-7fdce0e54db7")
+	)
+	(junction
+		(at 135.89 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ab5630d4-40d6-4c49-b9e3-9dc0a2cdca29")
+	)
+	(junction
+		(at 74.93 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ace3795f-956b-4ca6-a907-ce6eb0e35887")
+	)
+	(junction
+		(at 101.6 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dd14a252-f3c2-4db3-9cf3-7b37d10321f5")
+	)
+	(junction
+		(at 44.45 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dfc20236-5882-476a-8d12-3b080ec2a1c4")
+	)
+	(junction
+		(at 171.45 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e82dcb99-9f9a-4a0b-bb62-d9b86c9bca2b")
+	)
+	(wire
+		(pts
+			(xy 93.98 67.31) (xy 95.25 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0085428c-ab1e-4cc9-9237-cadef01f819e")
+	)
+	(wire
+		(pts
+			(xy 171.45 29.21) (xy 171.45 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07c38ecc-ae5d-47fd-84ec-431dc92dc28f")
+	)
+	(wire
+		(pts
+			(xy 105.41 50.8) (xy 105.41 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "092856bd-1d77-4e78-968f-c36384302246")
+	)
+	(wire
+		(pts
+			(xy 101.6 40.64) (xy 105.41 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b113fb0-08a6-49e9-9cd7-ef3d0bd0ab8b")
+	)
+	(wire
+		(pts
+			(xy 88.9 119.38) (xy 88.9 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1114ffb1-b470-4811-bd63-252193766dd3")
+	)
+	(wire
+		(pts
+			(xy 93.98 91.44) (xy 93.98 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11bc1481-ba39-4134-b0cd-e4f5aa0467cb")
+	)
+	(wire
+		(pts
+			(xy 66.04 62.23) (xy 62.23 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11f3bde4-40ff-45a1-aaac-4c346dfb441c")
+	)
+	(wire
+		(pts
+			(xy 135.89 29.21) (xy 135.89 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "181b2868-c388-4646-a962-36a1c385f255")
+	)
+	(wire
+		(pts
+			(xy 179.07 64.77) (xy 179.07 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18ff48a6-0dc7-4701-98dd-3ec16dba1656")
+	)
+	(wire
+		(pts
+			(xy 88.9 62.23) (xy 88.9 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "197b9df9-cad7-4523-ac73-af7e39759ae6")
+	)
+	(wire
+		(pts
+			(xy 177.8 64.77) (xy 179.07 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19d724f9-1a6c-4b61-95d9-863ec512ef77")
+	)
+	(wire
+		(pts
+			(xy 88.9 40.64) (xy 101.6 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b5742aa-68d1-45f6-aeb1-d7c4966e9df8")
+	)
+	(wire
+		(pts
+			(xy 40.64 41.91) (xy 40.64 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1cdc87b6-bd42-4631-bd1b-bc6460c27919")
+	)
+	(wire
+		(pts
+			(xy 105.41 40.64) (xy 105.41 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ecebaee-2cf0-4ec2-a9f1-8d1d23acb24b")
+	)
+	(wire
+		(pts
+			(xy 81.28 64.77) (xy 82.55 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22d5aabb-d65a-4a98-b78d-2c70e2450af7")
+	)
+	(wire
+		(pts
+			(xy 171.45 40.64) (xy 171.45 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "263ba99b-5562-49b0-9a1c-54584a9174ac")
+	)
+	(wire
+		(pts
+			(xy 31.75 71.12) (xy 49.53 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b183b8e-4b90-4145-9316-34ff1322f116")
+	)
+	(wire
+		(pts
+			(xy 144.78 64.77) (xy 144.78 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ed2f5ef-6133-4d3f-ba13-529250b18376")
+	)
+	(wire
+		(pts
+			(xy 93.98 99.06) (xy 93.98 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2fb60977-db19-4e4a-aeac-71001f95d76e")
+	)
+	(wire
+		(pts
+			(xy 82.55 64.77) (xy 82.55 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32b41cea-9738-4c32-acdf-96e3cab1c068")
+	)
+	(wire
+		(pts
+			(xy 127 67.31) (xy 128.27 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32c80e35-6a42-4560-b0e2-e3fdd270e47b")
+	)
+	(wire
+		(pts
+			(xy 105.41 36.83) (xy 105.41 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36bc7cf1-d680-4732-8551-59cfb34999c2")
+	)
+	(wire
+		(pts
+			(xy 44.45 52.07) (xy 44.45 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "374265f7-e17a-49d3-a21d-bdc061f3b130")
+	)
+	(wire
+		(pts
+			(xy 64.77 67.31) (xy 66.04 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37d73486-4c35-4636-ad69-cf44df793168")
+	)
+	(wire
+		(pts
+			(xy 161.29 71.12) (xy 161.29 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3aec6c28-949b-43a4-a55f-5a7c3e2795da")
+	)
+	(wire
+		(pts
+			(xy 43.18 88.9) (xy 39.37 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b320e2b-3460-46c2-bfc5-cf1628cb09b0")
+	)
+	(wire
+		(pts
+			(xy 179.07 71.12) (xy 161.29 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3bca5eb8-5e27-42f5-be24-f9a17079eb94")
+	)
+	(wire
+		(pts
+			(xy 88.9 124.46) (xy 106.68 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3cd0cfe6-00fa-4127-afb4-d66acc421b12")
+	)
+	(wire
+		(pts
+			(xy 121.92 40.64) (xy 132.08 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44a8998c-7768-44b7-b21c-bfd5de7921e3")
+	)
+	(wire
+		(pts
+			(xy 64.77 71.12) (xy 64.77 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44c528d2-2683-4af6-95d0-ee100a1f9e10")
+	)
+	(wire
+		(pts
+			(xy 71.12 88.9) (xy 71.12 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46314b3e-9a21-4ae4-a06f-08d5df840f2f")
+	)
+	(wire
+		(pts
+			(xy 143.51 64.77) (xy 144.78 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48438fd8-10af-4175-9028-cf4341dbdd8f")
+	)
+	(wire
+		(pts
+			(xy 104.14 88.9) (xy 104.14 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48aa2055-ad20-4ceb-b2c5-e70282100612")
+	)
+	(wire
+		(pts
+			(xy 74.93 50.8) (xy 74.93 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a23a8a8-cf91-43b2-af6d-1cff000783a7")
+	)
+	(wire
+		(pts
+			(xy 43.18 80.01) (xy 43.18 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "508eaac5-508c-4603-ba1d-f7c212146973")
+	)
+	(wire
+		(pts
+			(xy 167.64 40.64) (xy 167.64 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "540571f0-9d4a-4cec-9c45-f255ae0b9831")
+	)
+	(wire
+		(pts
+			(xy 29.21 88.9) (xy 29.21 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54f29626-5f4f-4bc7-879f-bf8872203fa8")
+	)
+	(wire
+		(pts
+			(xy 57.15 88.9) (xy 57.15 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55b216d9-29b7-4e43-bea9-97bf318f4f67")
+	)
+	(wire
+		(pts
+			(xy 74.93 40.64) (xy 74.93 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a229a21-4770-48d9-b711-17722c3f33b7")
+	)
+	(wire
+		(pts
+			(xy 135.89 50.8) (xy 135.89 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b0fa66e-37bb-48c2-a67a-9e7afcccb67e")
+	)
+	(wire
+		(pts
+			(xy 127 71.12) (xy 127 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e4d75d3-c322-4edd-b925-25c16e775b58")
+	)
+	(wire
+		(pts
+			(xy 33.02 62.23) (xy 29.21 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "625d9f5a-ceb4-482f-83b4-4be8076a5983")
+	)
+	(wire
+		(pts
+			(xy 121.92 62.23) (xy 121.92 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62ba0b21-f15b-4df6-9393-2671a08c8a5d")
+	)
+	(wire
+		(pts
+			(xy 43.18 88.9) (xy 43.18 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "631e8eb7-0b4d-4716-ab57-be4eb964fd75")
+	)
+	(wire
+		(pts
+			(xy 62.23 62.23) (xy 62.23 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64f743dc-7715-454d-a0e7-5200eddea9a2")
+	)
+	(wire
+		(pts
+			(xy 110.49 64.77) (xy 111.76 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66eb53c2-fa9a-41b9-b196-06294d0b7c97")
+	)
+	(wire
+		(pts
+			(xy 167.64 40.64) (xy 171.45 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66f0b0ff-1e88-42f6-a0fa-7c07586dc5db")
+	)
+	(wire
+		(pts
+			(xy 161.29 67.31) (xy 162.56 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d233b13-1810-44ae-b54d-d47c7577035a")
+	)
+	(wire
+		(pts
+			(xy 135.89 40.64) (xy 135.89 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e55dce6-c47c-4d10-bd6c-37aa1f0779f0")
+	)
+	(wire
+		(pts
+			(xy 49.53 71.12) (xy 49.53 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "721826f7-8ee3-4f34-af51-8573dea03f19")
+	)
+	(wire
+		(pts
+			(xy 49.53 64.77) (xy 48.26 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73cf7428-b7de-4e20-90b5-09ede385d80f")
+	)
+	(wire
+		(pts
+			(xy 40.64 52.07) (xy 44.45 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73f5937e-95cc-4ce0-8f0a-3e1d6d751fda")
+	)
+	(wire
+		(pts
+			(xy 93.98 100.33) (xy 104.14 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "749c0043-3c67-44d5-8f53-87bb9609887b")
+	)
+	(wire
+		(pts
+			(xy 44.45 30.48) (xy 44.45 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74b59323-d943-4a33-8485-e4f970a451f9")
+	)
+	(wire
+		(pts
+			(xy 44.45 38.1) (xy 44.45 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7632fdaf-1299-4da4-8aa2-e0b590b21227")
+	)
+	(wire
+		(pts
+			(xy 82.55 71.12) (xy 64.77 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7fc30a92-6e88-4415-b9cb-d6d83d72f207")
+	)
+	(wire
+		(pts
+			(xy 144.78 71.12) (xy 127 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7fdc5d19-7c73-45c3-93b8-6fc8ac8de5eb")
+	)
+	(wire
+		(pts
+			(xy 132.08 50.8) (xy 135.89 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "854debd0-a8da-4da8-80c5-1aa470157e88")
+	)
+	(wire
+		(pts
+			(xy 62.23 40.64) (xy 71.12 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8834db1c-24f5-492d-9405-b83dc4a20fce")
+	)
+	(wire
+		(pts
+			(xy 44.45 41.91) (xy 44.45 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a0118fc-82ba-4521-92d1-bebae6a9edc5")
+	)
+	(wire
+		(pts
+			(xy 128.27 62.23) (xy 121.92 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ac0ce7d-096d-47a1-8004-d9d7aec3172a")
+	)
+	(wire
+		(pts
+			(xy 132.08 40.64) (xy 132.08 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ae7fc74-f1d8-48d0-9c69-3ed288c58924")
+	)
+	(wire
+		(pts
+			(xy 29.21 62.23) (xy 29.21 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8fbe0225-80ab-4a01-837f-cbc83bb03adb")
+	)
+	(wire
+		(pts
+			(xy 167.64 50.8) (xy 171.45 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92dd475e-7874-4238-ac43-fe6d0e9ed507")
+	)
+	(wire
+		(pts
+			(xy 57.15 88.9) (xy 53.34 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9be09db2-97c3-4a25-a6af-042c606b2842")
+	)
+	(wire
+		(pts
+			(xy 71.12 50.8) (xy 74.93 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a06b3de6-12df-4649-acdb-b416b2fcf371")
+	)
+	(wire
+		(pts
+			(xy 93.98 88.9) (xy 104.14 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a12bca6a-6dc1-43f7-b86a-2f08ea5cf7e7")
+	)
+	(wire
+		(pts
+			(xy 71.12 40.64) (xy 74.93 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a490d97b-f331-4d9c-b4a2-7c7e38736594")
+	)
+	(wire
+		(pts
+			(xy 83.82 88.9) (xy 93.98 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8f27a00-218e-44c8-874d-3bc64372820d")
+	)
+	(wire
+		(pts
+			(xy 29.21 88.9) (xy 25.4 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9dae3a9-21ed-41fd-8e45-727543bdf341")
+	)
+	(wire
+		(pts
+			(xy 74.93 36.83) (xy 74.93 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "acfb3e9c-909d-45da-842b-881dcef9c9b0")
+	)
+	(wire
+		(pts
+			(xy 105.41 29.21) (xy 105.41 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad5235b3-08bf-4f8d-b603-50c8218b5e07")
+	)
+	(wire
+		(pts
+			(xy 29.21 41.91) (xy 40.64 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "adebcb1b-d561-45f8-b567-fbac17fee797")
+	)
+	(wire
+		(pts
+			(xy 158.75 40.64) (xy 167.64 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae3ca714-6c90-4c75-929b-3f3c56cf8e03")
+	)
+	(wire
+		(pts
+			(xy 158.75 62.23) (xy 158.75 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1aa55dc-6db2-413c-8031-7e20011b1687")
+	)
+	(wire
+		(pts
+			(xy 71.12 88.9) (xy 67.31 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b56fa890-3aae-4fda-91f2-1e911c222d8e")
+	)
+	(wire
+		(pts
+			(xy 104.14 86.36) (xy 104.14 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b62a7b33-6800-4a87-8892-8f0420beaabc")
+	)
+	(wire
+		(pts
+			(xy 171.45 36.83) (xy 171.45 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6fa21b5-b682-4227-8c3d-dc20d0013647")
+	)
+	(wire
+		(pts
+			(xy 93.98 100.33) (xy 93.98 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b863abe7-bef1-44ba-b701-c780d3be3a68")
+	)
+	(wire
+		(pts
+			(xy 111.76 64.77) (xy 111.76 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc9b29a2-b8e8-415d-a3d7-3c03e6448c7f")
+	)
+	(wire
+		(pts
+			(xy 71.12 43.18) (xy 71.12 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0d91039-f907-48ce-af46-5356c614c5f7")
+	)
+	(wire
+		(pts
+			(xy 90.17 114.3) (xy 83.82 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c20db5d4-1bcc-4b69-95ff-0c8a3049f81b")
+	)
+	(wire
+		(pts
+			(xy 101.6 50.8) (xy 105.41 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6869a24-daf2-4b96-9ccc-36e3fea03854")
+	)
+	(wire
+		(pts
+			(xy 101.6 40.64) (xy 101.6 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7ef9b3d-14fc-494b-9279-933c54810b42")
+	)
+	(wire
+		(pts
+			(xy 90.17 119.38) (xy 88.9 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9d7b04f-2708-4e66-9d7c-c03bbe7a79b6")
+	)
+	(wire
+		(pts
+			(xy 95.25 62.23) (xy 88.9 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd1c430a-830a-45a9-a58f-4135fba30d87")
+	)
+	(wire
+		(pts
+			(xy 162.56 62.23) (xy 158.75 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd6f18d6-eb1f-4192-8cf6-2d5c07231042")
+	)
+	(wire
+		(pts
+			(xy 71.12 80.01) (xy 71.12 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db6fb407-0c80-4b6e-9089-c892d8c02bc8")
+	)
+	(wire
+		(pts
+			(xy 135.89 36.83) (xy 135.89 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc42c126-f147-490a-aa84-50df650da748")
+	)
+	(wire
+		(pts
+			(xy 104.14 77.47) (xy 104.14 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de979db3-6cdc-49ef-8086-be8720f3daac")
+	)
+	(wire
+		(pts
+			(xy 74.93 29.21) (xy 74.93 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e46e5992-0a90-420c-9582-c5de0ef4bf14")
+	)
+	(wire
+		(pts
+			(xy 93.98 71.12) (xy 93.98 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e77a1fda-c3a8-4092-be40-dc24cf6f2e87")
+	)
+	(wire
+		(pts
+			(xy 106.68 116.84) (xy 105.41 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8dafc53-6e9d-444b-94c6-7af6167710d8")
+	)
+	(wire
+		(pts
+			(xy 40.64 41.91) (xy 44.45 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea5ef94c-11c9-4712-a10b-3708cb336699")
+	)
+	(wire
+		(pts
+			(xy 31.75 67.31) (xy 31.75 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f354c693-98a9-4506-89b4-67ea178421d8")
+	)
+	(wire
+		(pts
+			(xy 83.82 114.3) (xy 83.82 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f35b5713-8d99-4547-977c-722140760a86")
+	)
+	(wire
+		(pts
+			(xy 111.76 71.12) (xy 93.98 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f363b8a9-3a92-494d-abae-4a97887a7c06")
+	)
+	(wire
+		(pts
+			(xy 171.45 50.8) (xy 171.45 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4d20901-e51c-431e-b6a7-e5e44ca3b7ae")
+	)
+	(wire
+		(pts
+			(xy 29.21 80.01) (xy 29.21 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4e3f4b6-5740-4e51-a945-324f37e17e31")
+	)
+	(wire
+		(pts
+			(xy 31.75 67.31) (xy 33.02 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7736d2f-3dfd-4bee-a60e-691a28e3ece7")
+	)
+	(wire
+		(pts
+			(xy 106.68 124.46) (xy 106.68 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8367ca2-e628-476d-ba92-daa8e3040c71")
+	)
+	(wire
+		(pts
+			(xy 104.14 99.06) (xy 104.14 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fcc55d7b-61cc-4a98-8e78-dc9169563d15")
+	)
+	(wire
+		(pts
+			(xy 57.15 80.01) (xy 57.15 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ffa002bf-94dd-4f30-8f89-54995125eff9")
+	)
+	(wire
+		(pts
+			(xy 132.08 40.64) (xy 135.89 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ffc8c8d6-b3c1-4779-81fc-54d84f3d46d2")
+	)
+	(hierarchical_label "3.3V"
+		(shape input)
+		(at 43.18 107.95 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0256aeb1-c12b-42f7-8998-58a4b7d99846")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 93.98 102.87 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0b2dfd73-e263-45d3-bdec-b35ac297a4b6")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 43.18 123.19 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0f821434-f006-487d-925a-002376935907")
+	)
+	(hierarchical_label "AIN3"
+		(shape bidirectional)
+		(at 144.78 64.77 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0feb97dc-b022-4e64-97dc-084de43722c5")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 171.45 53.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "10ecf536-e2c6-4c6d-a53a-0075af06ef2d")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 135.89 53.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "12685b8a-d2bb-4821-ba37-aade5dd12efb")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 71.12 97.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1303cc07-24aa-4a4a-9827-79e605b5d460")
+	)
+	(hierarchical_label "3.3V"
+		(shape input)
+		(at 57.15 80.01 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "198bcec3-bf4c-4011-bc29-8b15c9323cd1")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 105.41 53.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1a5af037-85c3-480e-b195-f97a3c646bd3")
+	)
+	(hierarchical_label "3.3V"
+		(shape input)
+		(at 74.93 29.21 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "28bd80cc-ba0e-4953-965e-51701b68cb08")
+	)
+	(hierarchical_label "AIN2"
+		(shape bidirectional)
+		(at 111.76 64.77 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "29eea27b-7078-42c1-993d-5d8feca840be")
+	)
+	(hierarchical_label "IO5"
+		(shape bidirectional)
+		(at 25.4 88.9 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2f81fcb2-4a48-4676-ab7f-7edad9f8607c")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 29.21 97.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "37b5f231-9597-4d93-a74e-7d6c44ebd867")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 74.93 53.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "43f1820f-c16a-49ce-97e7-643ebd694b9a")
+	)
+	(hierarchical_label "IO8"
+		(shape bidirectional)
+		(at 67.31 88.9 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4f302cbb-e8cd-470c-88e6-701821799241")
+	)
+	(hierarchical_label "3.3V"
+		(shape input)
+		(at 25.4 107.95 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5dfc6cbf-d65e-4255-9116-d830c83dbeb2")
+	)
+	(hierarchical_label "3.3V"
+		(shape input)
+		(at 44.45 30.48 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5f5104d1-72b8-489f-bee1-8c95c4ed8749")
+	)
+	(hierarchical_label "AIN5"
+		(shape bidirectional)
+		(at 106.68 116.84 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6081428d-f043-46af-a5c1-7af9cdc8e01f")
+	)
+	(hierarchical_label "3.3V"
+		(shape input)
+		(at 135.89 29.21 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "64faa20c-7a40-46dc-a578-572999e9c92b")
+	)
+	(hierarchical_label "AIN0"
+		(shape bidirectional)
+		(at 49.53 64.77 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "68d1a8ef-b165-477c-8541-5aa3f6b0b486")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 44.45 54.61 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6c50fc9c-c49f-407d-b8d6-657bee2fdee5")
+	)
+	(hierarchical_label "IO6"
+		(shape bidirectional)
+		(at 39.37 88.9 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7b395902-b54a-409a-8a22-249a639cc35d")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 43.18 97.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "83112a4c-85d8-4bc7-b1e7-f6558c17956f")
+	)
+	(hierarchical_label "3.3V"
+		(shape input)
+		(at 105.41 29.21 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "847095c4-c285-48da-952b-a765aa8967b9")
+	)
+	(hierarchical_label "AIN4"
+		(shape bidirectional)
+		(at 179.07 64.77 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "86977436-154b-4f73-a046-311dc8384f97")
+	)
+	(hierarchical_label "VBat"
+		(shape input)
+		(at 104.14 77.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8e9b6c1c-5077-4a51-a775-4d1f3c843539")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 57.15 97.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8f0f527c-b5ad-4159-a165-d00fea5db982")
+	)
+	(hierarchical_label "3.3V"
+		(shape input)
+		(at 171.45 29.21 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a63d0b21-c7d6-41ce-ab7a-9da912c7ea2c")
+	)
+	(hierarchical_label "AIN1"
+		(shape bidirectional)
+		(at 82.55 64.77 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "adf9d002-a210-4dfd-814d-e605b6aa2437")
+	)
+	(hierarchical_label "3.3V"
+		(shape input)
+		(at 29.21 80.01 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b8dbcd0c-2c6a-4432-b500-2849626de4ad")
+	)
+	(hierarchical_label "IO7"
+		(shape bidirectional)
+		(at 53.34 88.9 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b97b99b9-91bd-412e-af00-0d2b140cdf46")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 25.4 123.19 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ca98c9c4-dc0b-4af8-8e08-843906d794fb")
+	)
+	(hierarchical_label "3.3V"
+		(shape input)
+		(at 71.12 80.01 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d8c68609-ad68-4fdb-a323-520b4043f671")
+	)
+	(hierarchical_label "3.3V"
+		(shape input)
+		(at 43.18 80.01 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e412f238-ffe7-4b2a-91ef-7cc88caabf02")
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:LMV324")
+		(at 163.83 90.17 0)
+		(unit 4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "013141a5-c99a-4ec6-8e35-13fa7a68b99f")
+		(property "Reference" "U5"
+			(at 163.83 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LMV324"
+			(at 163.83 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
+			(at 162.56 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lmv324.pdf"
+			(at 165.1 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quad Low-Voltage Rail-to-Rail Output Operational Amplifier, SOIC-14/SSOP-14"
+			(at 163.83 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f9592fed-1e19-468a-adc7-510b882ba60e")
+		)
+		(pin "3"
+			(uuid "7e65d31b-697e-494f-9973-2e1ee999e782")
+		)
+		(pin "4"
+			(uuid "fffffa22-f384-4ff2-836a-22f9fd6ef2b7")
+		)
+		(pin "13"
+			(uuid "8274f42c-5558-4270-80fc-bcefe335fe4a")
+		)
+		(pin "2"
+			(uuid "8fca6c6d-dc0b-4dfa-8979-ace45f3c81f1")
+		)
+		(pin "10"
+			(uuid "84bc73c7-9a00-4c1f-a688-bdb078813ad9")
+		)
+		(pin "9"
+			(uuid "d450eb97-225b-4755-b28e-c615b2b9f7a5")
+		)
+		(pin "14"
+			(uuid "440bdd88-310a-427a-8fcf-551b81041815")
+		)
+		(pin "6"
+			(uuid "7932ee5c-324d-49cd-977e-7f46e9ef277a")
+		)
+		(pin "11"
+			(uuid "7ddd357c-a075-488e-9f01-5c465e57047b")
+		)
+		(pin "8"
+			(uuid "3035723e-8b0a-4ed5-bfae-83a908dc954c")
+		)
+		(pin "7"
+			(uuid "30e8b6c2-1f8e-47f6-83ba-968f71542349")
+		)
+		(pin "12"
+			(uuid "e657bfd7-56e5-4a2a-ab4e-24b4f6952123")
+		)
+		(pin "5"
+			(uuid "7d55b2b5-2dfa-4fbe-925d-2392491358f4")
+		)
+		(instances
+			(project "Guantes traductores"
+				(path "/00699b90-32f8-49a9-88ac-8ba611fc0511/6f5c565c-9347-4b14-95b0-f95815e8625c"
+					(reference "U5")
+					(unit 4)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 104.14 95.25 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "09152ff3-6f32-440c-9f1b-c748028db4e5")
+		(property "Reference" "R12"
+			(at 106.68 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 101.6 95.504 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 105.918 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 104.14 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 104.14 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d9f183df-0061-42a8-b92f-eae301079b89")
+		)
+		(pin "1"
+			(uuid "86267b1a-1001-4025-bfa5-8f8855fd747b")
+		)
+		(instances
+			(project "Guantes traductores"
+				(path "/00699b90-32f8-49a9-88ac-8ba611fc0511/6f5c565c-9347-4b14-95b0-f95815e8625c"
+					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 167.64 46.99 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1160d0f7-eb9a-4f77-b0fe-cdba2795ceaa")
+		(property "Reference" "C23"
+			(at 164.592 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 164.592 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 166.6748 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 167.64 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 167.64 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1abd1bfb-3991-46be-89d7-e13a620e3012")
+		)
+		(pin "2"
+			(uuid "c91e7191-abb6-4736-ba3d-aee57fcbe489")
+		)
+		(instances
+			(project "Guantes traductores"
+				(path "/00699b90-32f8-49a9-88ac-8ba611fc0511/6f5c565c-9347-4b14-95b0-f95815e8625c"
+					(reference "C23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 24.13 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "15d593a2-cc20-4f49-a7d6-9f02029f31c8")
+		(property "Reference" "J10"
+			(at 23.622 93.218 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Contacto1"
+			(at 25.4 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical"
+			(at 24.13 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 24.13 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 24.13 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "53836fc0-8ed9-459c-9040-c1550fcbeebc")
+		)
+		(pin "1"
+			(uuid "3b644d55-2ae8-4af9-a0ab-99e171d1365d")
+		)
+		(instances
+			(project "Guantes traductores"
+				(path "/00699b90-32f8-49a9-88ac-8ba611fc0511/6f5c565c-9347-4b14-95b0-f95815e8625c"
+					(reference "J10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 132.08 46.99 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "189e1f12-9372-42de-8f39-53a3d7e9164e")
+		(property "Reference" "C13"
+			(at 129.032 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 129.032 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 131.1148 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 132.08 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 132.08 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "803bb8fd-bddb-4a34-9d00-df8396bed90d")
+		)
+		(pin "2"
+			(uuid "3ffa5d68-b060-4b85-835e-f81e222daf30")
+		)
+		(instances
+			(project "Guantes traductores"
+				(path "/00699b90-32f8-49a9-88ac-8ba611fc0511/6f5c565c-9347-4b14-95b0-f95815e8625c"
+					(reference "C13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 40.64 48.26 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1bb015fa-ad55-4ea1-b994-bd1e8768e386")
+		(property "Reference" "C8"
+			(at 37.592 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 37.592 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 39.6748 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 40.64 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 40.64 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f235f332-59a6-45c8-88f4-17fa61536afb")
+		)
+		(pin "2"
+			(uuid "2e690e0d-bb07-4c87-a6b4-ca517a972df1")
+		)
+		(instances
+			(project "Guantes traductores"
+				(path "/00699b90-32f8-49a9-88ac-8ba611fc0511/6f5c565c-9347-4b14-95b0-f95815e8625c"
+					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:LMV324")
+		(at 170.18 64.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "21473378-09f3-43fa-a6ab-92b2fd2d69cc")
+		(property "Reference" "U5"
+			(at 170.434 60.706 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LMV324"
+			(at 169.672 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
+			(at 168.91 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lmv324.pdf"
+			(at 171.45 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quad Low-Voltage Rail-to-Rail Output Operational Amplifier, SOIC-14/SSOP-14"
+			(at 170.18 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f9592fed-1e19-468a-adc7-510b882ba60f")
+		)
+		(pin "3"
+			(uuid "7e65d31b-697e-494f-9973-2e1ee999e783")
+		)
+		(pin "4"
+			(uuid "fffffa22-f384-4ff2-836a-22f9fd6ef2b8")
+		)
+		(pin "13"
+			(uuid "8274f42c-5558-4270-80fc-bcefe335fe4b")
+		)
+		(pin "2"
+			(uuid "8fca6c6d-dc0b-4dfa-8979-ace45f3c81f2")
+		)
+		(pin "10"
+			(uuid "84bc73c7-9a00-4c1f-a688-bdb078813ada")
+		)
+		(pin "9"
+			(uuid "d450eb97-225b-4755-b28e-c615b2b9f7a6")
+		)
+		(pin "14"
+			(uuid "440bdd88-310a-427a-8fcf-551b81041816")
+		)
+		(pin "6"
+			(uuid "7932ee5c-324d-49cd-977e-7f46e9ef277b")
+		)
+		(pin "11"
+			(uuid "7ddd357c-a075-488e-9f01-5c465e57047c")
+		)
+		(pin "8"
+			(uuid "3035723e-8b0a-4ed5-bfae-83a908dc954d")
+		)
+		(pin "7"
+			(uuid "30e8b6c2-1f8e-47f6-83ba-968f7154234a")
+		)
+		(pin "12"
+			(uuid "e657bfd7-56e5-4a2a-ab4e-24b4f6952124")
+		)
+		(pin "5"
+			(uuid "7d55b2b5-2dfa-4fbe-925d-2392491358f5")
+		)
+		(instances
+			(project "Guantes traductores"
+				(path "/00699b90-32f8-49a9-88ac-8ba611fc0511/6f5c565c-9347-4b14-95b0-f95815e8625c"
+					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 101.6 46.99 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "24f7b822-6674-4cfd-8165-91fed7c0ccfb")
+		(property "Reference" "C12"
+			(at 98.552 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 98.552 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 100.6348 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 101.6 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 101.6 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ca09246d-2e44-4b47-b8e3-d5474d53ee59")
+		)
+		(pin "2"
+			(uuid "45a9b1fd-2a75-4488-a03c-35aa6dceee71")
+		)
+		(instances
+			(project "Guantes traductores"
+				(path "/00699b90-32f8-49a9-88ac-8ba611fc0511/6f5c565c-9347-4b14-95b0-f95815e8625c"
+					(reference "C12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 66.04 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "26e1528c-7142-4fd3-a4d8-281841f0bfc5")
+		(property "Reference" "J13"
+			(at 65.532 93.218 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Contacto4"
+			(at 69.088 76.962 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical"
+			(at 66.04 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 66.04 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 66.04 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "02366df4-3616-4e46-9d9d-acdd8461e27a")
+		)
+		(pin "1"
+			(uuid "d7ab518b-e06f-4b75-802f-502521bc4ba4")
+		)
+		(instances
+			(project "Guantes traductores"
+				(path "/00699b90-32f8-49a9-88ac-8ba611fc0511/6f5c565c-9347-4b14-95b0-f95815e8625c"
+					(reference "J13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:LMV324")
+		(at 135.89 64.77 0)
+		(unit 4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2b6e4f46-8ed0-4656-8243-0d6276c1eaae")
+		(property "Reference" "U4"
+			(at 136.398 60.706 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LMV324"
+			(at 135.128 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
+			(at 134.62 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lmv324.pdf"
+			(at 137.16 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quad Low-Voltage Rail-to-Rail Output Operational Amplifier, SOIC-14/SSOP-14"
+			(at 135.89 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "13"
+			(uuid "62a251ed-a37d-44b6-80a3-7b5b66f26281")
+		)
+		(pin "12"
+			(uuid "76b4e489-b432-44a8-b221-eb344267ec25")
+		)
+		(pin "1"
+			(uuid "88c5c5db-d70a-43c7-b3fb-92224ed56094")
+		)
+		(pin "6"
+			(uuid "2f980abd-0ca7-4efc-ab9b-fc69270fe0ad")
+		)
+		(pin "3"
+			(uuid "7fa0c178-7f2f-4f6c-a4bb-ebb8828bc1aa")
+		)
+		(pin "7"
+			(uuid "5c2b0f0b-027a-4148-a4ae-6ff6495220ab")
+		)
+		(pin "9"
+			(uuid "c27b9864-49fe-4c9f-b182-933004093509")
+		)
+		(pin "8"
+			(uuid "02b897ed-700e-438e-a7ff-af9edc4a7788")
+		)
+		(pin "2"
+			(uuid "ff464b3f-695b-4f21-90d5-1955ca1ba321")
+		)
+		(pin "14"
+			(uuid "dbcade5b-33a3-40c3-bc2c-1cf13abc97e5")
+		)
+		(pin "11"
+			(uuid "24c7743c-2f8d-449f-b447-9247f120cc82")
+		)
+		(pin "4"
+			(uuid "663e240f-7010-4fbf-9e44-7778e4c831d1")
+		)
+		(pin "5"
+			(uuid "31ffe233-7fec-43c6-b04f-a0349de8d684")
+		)
+		(pin "10"
+			(uuid "bb1464a5-48c0-4f7b-9ae9-481215ac02bb")
+		)
+		(instances
+			(project "Guantes traductores"
+				(path "/00699b90-32f8-49a9-88ac-8ba611fc0511/6f5c565c-9347-4b14-95b0-f95815e8625c"
+					(reference "U4")
+					(unit 4)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:LMV324")
+		(at 142.24 90.17 0)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "304c3a2d-f347-4cdc-af2e-3cb08ab80a39")
+		(property "Reference" "U5"
+			(at 142.24 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LMV324"
+			(at 142.24 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
+			(at 140.97 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lmv324.pdf"
+			(at 143.51 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quad Low-Voltage Rail-to-Rail Output Operational Amplifier, SOIC-14/SSOP-14"
+			(at 142.24 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f9592fed-1e19-468a-adc7-510b882ba610")
+		)
+		(pin "3"
+			(uuid "7e65d31b-697e-494f-9973-2e1ee999e784")
+		)
+		(pin "4"
+			(uuid "fffffa22-f384-4ff2-836a-22f9fd6ef2b9")
+		)
+		(pin "13"
+			(uuid "8274f42c-5558-4270-80fc-bcefe335fe4c")
+		)
+		(pin "2"
+			(uuid "8fca6c6d-dc0b-4dfa-8979-ace45f3c81f3")
+		)
+		(pin "10"
+			(uuid "84bc73c7-9a00-4c1f-a688-bdb078813adb")
+		)
+		(pin "9"
+			(uuid "d450eb97-225b-4755-b28e-c615b2b9f7a7")
+		)
+		(pin "14"
+			(uuid "440bdd88-310a-427a-8fcf-551b81041817")
+		)
+		(pin "6"
+			(uuid "7932ee5c-324d-49cd-977e-7f46e9ef277c")
+		)
+		(pin "11"
+			(uuid "7ddd357c-a075-488e-9f01-5c465e57047d")
+		)
+		(pin "8"
+			(uuid "3035723e-8b0a-4ed5-bfae-83a908dc954e")
+		)
+		(pin "7"
+			(uuid "30e8b6c2-1f8e-47f6-83ba-968f7154234b")
+		)
+		(pin "12"
+			(uuid "e657bfd7-56e5-4a2a-ab4e-24b4f6952125")
+		)
+		(pin "5"
+			(uuid "7d55b2b5-2dfa-4fbe-925d-2392491358f6")
+		)
+		(instances
+			(project "Guantes traductores"
+				(path "/00699b90-32f8-49a9-88ac-8ba611fc0511/6f5c565c-9347-4b14-95b0-f95815e8625c"
+					(reference "U5")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 171.45 46.99 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "37d8193b-df90-4d34-bb6d-d8cf7e6a6411")
+		(property "Reference" "R16"
+			(at 176.022 46.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100k"
+			(at 173.99 47.244 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 173.228 46.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 171.45 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 171.45 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f08d574e-d8bd-407f-9760-ace58e2c2850")
+		)
+		(pin "1"
+			(uuid "f0956ed1-2a50-41f5-879d-6be071aaaca8")
+		)
+		(instances
+			(project "Guantes traductores"
+				(path "/00699b90-32f8-49a9-88ac-8ba611fc0511/6f5c565c-9347-4b14-95b0-f95815e8625c"
+					(reference "R16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 104.14 82.55 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "40f28d43-02d3-4b83-8e02-b902c9ebd3b8")
+		(property "Reference" "R11"
+			(at 106.68 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 101.6 82.804 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 105.918 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 104.14 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 104.14 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b6c46953-d633-4eba-bec9-cd192e529865")
+		)
+		(pin "1"
+			(uuid "7e74d3da-389f-4eb7-a88d-9229feb085a5")
+		)
+		(instances
+			(project "Guantes traductores"
+				(path "/00699b90-32f8-49a9-88ac-8ba611fc0511/6f5c565c-9347-4b14-95b0-f95815e8625c"
+					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:LMV324")
+		(at 45.72 115.57 0)
+		(unit 5)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "53731288-4989-4f21-a6fd-61b20fea498e")
+		(property "Reference" "U5"
+			(at 44.45 114.2999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LMV324"
+			(at 44.45 116.8399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
+			(at 44.45 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lmv324.pdf"
+			(at 46.99 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quad Low-Voltage Rail-to-Rail Output Operational Amplifier, SOIC-14/SSOP-14"
+			(at 45.72 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f9592fed-1e19-468a-adc7-510b882ba611")
+		)
+		(pin "3"
+			(uuid "7e65d31b-697e-494f-9973-2e1ee999e785")
+		)
+		(pin "4"
+			(uuid "fffffa22-f384-4ff2-836a-22f9fd6ef2ba")
+		)
+		(pin "13"
+			(uuid "8274f42c-5558-4270-80fc-bcefe335fe4d")
+		)
+		(pin "2"
+			(uuid "8fca6c6d-dc0b-4dfa-8979-ace45f3c81f4")
+		)
+		(pin "10"
+			(uuid "84bc73c7-9a00-4c1f-a688-bdb078813adc")
+		)
+		(pin "9"
+			(uuid "d450eb97-225b-4755-b28e-c615b2b9f7a8")
+		)
+		(pin "14"
+			(uuid "440bdd88-310a-427a-8fcf-551b81041818")
+		)
+		(pin "6"
+			(uuid "7932ee5c-324d-49cd-977e-7f46e9ef277d")
+		)
+		(pin "11"
+			(uuid "7ddd357c-a075-488e-9f01-5c465e57047e")
+		)
+		(pin "8"
+			(uuid "3035723e-8b0a-4ed5-bfae-83a908dc954f")
+		)
+		(pin "7"
+			(uuid "30e8b6c2-1f8e-47f6-83ba-968f7154234c")
+		)
+		(pin "12"
+			(uuid "e657bfd7-56e5-4a2a-ab4e-24b4f6952126")
+		)
+		(pin "5"
+			(uuid "7d55b2b5-2dfa-4fbe-925d-2392491358f7")
+		)
+		(instances
+			(project "Guantes traductores"
+				(path "/00699b90-32f8-49a9-88ac-8ba611fc0511/6f5c565c-9347-4b14-95b0-f95815e8625c"
+					(reference "U5")
+					(unit 5)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:LMV324")
+		(at 97.79 116.84 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "605dcf39-c5c5-4412-8487-cb19ad083dd7")
+		(property "Reference" "U5"
+			(at 97.79 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LMV324"
+			(at 97.79 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
+			(at 96.52 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lmv324.pdf"
+			(at 99.06 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quad Low-Voltage Rail-to-Rail Output Operational Amplifier, SOIC-14/SSOP-14"
+			(at 97.79 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f9592fed-1e19-468a-adc7-510b882ba612")
+		)
+		(pin "3"
+			(uuid "7e65d31b-697e-494f-9973-2e1ee999e786")
+		)
+		(pin "4"
+			(uuid "fffffa22-f384-4ff2-836a-22f9fd6ef2bb")
+		)
+		(pin "13"
+			(uuid "8274f42c-5558-4270-80fc-bcefe335fe4e")
+		)
+		(pin "2"
+			(uuid "8fca6c6d-dc0b-4dfa-8979-ace45f3c81f5")
+		)
+		(pin "10"
+			(uuid "84bc73c7-9a00-4c1f-a688-bdb078813add")
+		)
+		(pin "9"
+			(uuid "d450eb97-225b-4755-b28e-c615b2b9f7a9")
+		)
+		(pin "14"
+			(uuid "440bdd88-310a-427a-8fcf-551b81041819")
+		)
+		(pin "6"
+			(uuid "7932ee5c-324d-49cd-977e-7f46e9ef277e")
+		)
+		(pin "11"
+			(uuid "7ddd357c-a075-488e-9f01-5c465e57047f")
+		)
+		(pin "8"
+			(uuid "3035723e-8b0a-4ed5-bfae-83a908dc9550")
+		)
+		(pin "7"
+			(uuid "30e8b6c2-1f8e-47f6-83ba-968f7154234d")
+		)
+		(pin "12"
+			(uuid "e657bfd7-56e5-4a2a-ab4e-24b4f6952127")
+		)
+		(pin "5"
+			(uuid "7d55b2b5-2dfa-4fbe-925d-2392491358f8")
+		)
+		(instances
+			(project "Guantes traductores"
+				(path "/00699b90-32f8-49a9-88ac-8ba611fc0511/6f5c565c-9347-4b14-95b0-f95815e8625c"
+					(reference "U5")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:LMV324")
+		(at 27.94 115.57 0)
+		(unit 5)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "619547d6-8e21-4c59-907a-c8a282c78b20")
+		(property "Reference" "U4"
+			(at 26.67 114.2999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LMV324"
+			(at 26.67 116.8399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
+			(at 26.67 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lmv324.pdf"
+			(at 29.21 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quad Low-Voltage Rail-to-Rail Output Operational Amplifier, SOIC-14/SSOP-14"
+			(at 27.94 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "13"
+			(uuid "62a251ed-a37d-44b6-80a3-7b5b66f26282")
+		)
+		(pin "12"
+			(uuid "76b4e489-b432-44a8-b221-eb344267ec26")
+		)
+		(pin "1"
+			(uuid "88c5c5db-d70a-43c7-b3fb-92224ed56095")
+		)
+		(pin "6"
+			(uuid "2f980abd-0ca7-4efc-ab9b-fc69270fe0ae")
+		)
+		(pin "3"
+			(uuid "7fa0c178-7f2f-4f6c-a4bb-ebb8828bc1ab")
+		)
+		(pin "7"
+			(uuid "5c2b0f0b-027a-4148-a4ae-6ff6495220ac")
+		)
+		(pin "9"
+			(uuid "c27b9864-49fe-4c9f-b182-93300409350a")
+		)
+		(pin "8"
+			(uuid "02b897ed-700e-438e-a7ff-af9edc4a7789")
+		)
+		(pin "2"
+			(uuid "ff464b3f-695b-4f21-90d5-1955ca1ba322")
+		)
+		(pin "14"
+			(uuid "dbcade5b-33a3-40c3-bc2c-1cf13abc97e6")
+		)
+		(pin "11"
+			(uuid "24c7743c-2f8d-449f-b447-9247f120cc83")
+		)
+		(pin "4"
+			(uuid "663e240f-7010-4fbf-9e44-7778e4c831d2")
+		)
+		(pin "5"
+			(uuid "31ffe233-7fec-43c6-b04f-a0349de8d685")
+		)
+		(pin "10"
+			(uuid "bb1464a5-48c0-4f7b-9ae9-481215ac02bc")
+		)
+		(instances
+			(project "Guantes traductores"
+				(path "/00699b90-32f8-49a9-88ac-8ba611fc0511/6f5c565c-9347-4b14-95b0-f95815e8625c"
+					(reference "U4")
+					(unit 5)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:LMV324")
+		(at 40.64 64.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "61efd7a0-b330-4f64-bd4a-a7ed5294ae58")
+		(property "Reference" "U4"
+			(at 40.64 59.944 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LMV324"
+			(at 39.624 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
+			(at 39.37 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lmv324.pdf"
+			(at 41.91 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quad Low-Voltage Rail-to-Rail Output Operational Amplifier, SOIC-14/SSOP-14"
+			(at 40.64 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "13"
+			(uuid "62a251ed-a37d-44b6-80a3-7b5b66f26283")
+		)
+		(pin "12"
+			(uuid "76b4e489-b432-44a8-b221-eb344267ec27")
+		)
+		(pin "1"
+			(uuid "88c5c5db-d70a-43c7-b3fb-92224ed56096")
+		)
+		(pin "6"
+			(uuid "2f980abd-0ca7-4efc-ab9b-fc69270fe0af")
+		)
+		(pin "3"
+			(uuid "7fa0c178-7f2f-4f6c-a4bb-ebb8828bc1ac")
+		)
+		(pin "7"
+			(uuid "5c2b0f0b-027a-4148-a4ae-6ff6495220ad")
+		)
+		(pin "9"
+			(uuid "c27b9864-49fe-4c9f-b182-93300409350b")
+		)
+		(pin "8"
+			(uuid "02b897ed-700e-438e-a7ff-af9edc4a778a")
+		)
+		(pin "2"
+			(uuid "ff464b3f-695b-4f21-90d5-1955ca1ba323")
+		)
+		(pin "14"
+			(uuid "dbcade5b-33a3-40c3-bc2c-1cf13abc97e7")
+		)
+		(pin "11"
+			(uuid "24c7743c-2f8d-449f-b447-9247f120cc84")
+		)
+		(pin "4"
+			(uuid "663e240f-7010-4fbf-9e44-7778e4c831d3")
+		)
+		(pin "5"
+			(uuid "31ffe233-7fec-43c6-b04f-a0349de8d686")
+		)
+		(pin "10"
+			(uuid "bb1464a5-48c0-4f7b-9ae9-481215ac02bd")
+		)
+		(instances
+			(project "Guantes traductores"
+				(path "/00699b90-32f8-49a9-88ac-8ba611fc0511/6f5c565c-9347-4b14-95b0-f95815e8625c"
+					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:LMV324")
+		(at 73.66 64.77 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6264f446-a23d-4202-90e5-569d49dd8b58")
+		(property "Reference" "U4"
+			(at 74.168 60.452 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LMV324"
+			(at 72.898 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
+			(at 72.39 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lmv324.pdf"
+			(at 74.93 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quad Low-Voltage Rail-to-Rail Output Operational Amplifier, SOIC-14/SSOP-14"
+			(at 73.66 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "13"
+			(uuid "62a251ed-a37d-44b6-80a3-7b5b66f26284")
+		)
+		(pin "12"
+			(uuid "76b4e489-b432-44a8-b221-eb344267ec28")
+		)
+		(pin "1"
+			(uuid "88c5c5db-d70a-43c7-b3fb-92224ed56097")
+		)
+		(pin "6"
+			(uuid "2f980abd-0ca7-4efc-ab9b-fc69270fe0b0")
+		)
+		(pin "3"
+			(uuid "7fa0c178-7f2f-4f6c-a4bb-ebb8828bc1ad")
+		)
+		(pin "7"
+			(uuid "5c2b0f0b-027a-4148-a4ae-6ff6495220ae")
+		)
+		(pin "9"
+			(uuid "c27b9864-49fe-4c9f-b182-93300409350c")
+		)
+		(pin "8"
+			(uuid "02b897ed-700e-438e-a7ff-af9edc4a778b")
+		)
+		(pin "2"
+			(uuid "ff464b3f-695b-4f21-90d5-1955ca1ba324")
+		)
+		(pin "14"
+			(uuid "dbcade5b-33a3-40c3-bc2c-1cf13abc97e8")
+		)
+		(pin "11"
+			(uuid "24c7743c-2f8d-449f-b447-9247f120cc85")
+		)
+		(pin "4"
+			(uuid "663e240f-7010-4fbf-9e44-7778e4c831d4")
+		)
+		(pin "5"
+			(uuid "31ffe233-7fec-43c6-b04f-a0349de8d687")
+		)
+		(pin "10"
+			(uuid "bb1464a5-48c0-4f7b-9ae9-481215ac02be")
+		)
+		(instances
+			(project "Guantes traductores"
+				(path "/00699b90-32f8-49a9-88ac-8ba611fc0511/6f5c565c-9347-4b14-95b0-f95815e8625c"
+					(reference "U4")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 43.18 85.09 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "71a3a259-b6e5-4173-95d7-52ffbb8cff6b")
+		(property "Reference" "R10"
+			(at 45.212 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 40.64 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 44.958 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 43.18 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 43.18 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1becae7b-e016-49fe-b400-fd7b849c1a74")
+		)
+		(pin "1"
+			(uuid "d60c8e5e-c439-4f70-98bc-bc7b45ad7b4c")
+		)
+		(instances
+			(project "Guantes traductores"
+				(path "/00699b90-32f8-49a9-88ac-8ba611fc0511/6f5c565c-9347-4b14-95b0-f95815e8625c"
+					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 74.93 46.99 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "758aa53a-858b-4734-ba45-0c0c93b31888")
+		(property "Reference" "R24"
+			(at 79.502 46.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100k"
+			(at 77.47 47.244 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 76.708 46.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 74.93 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 74.93 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6602ac4d-4b5f-4978-8659-eaf9050ab48e")
+		)
+		(pin "1"
+			(uuid "0edb9770-596b-4055-8c2d-1b845c959256")
+		)
+		(instances
+			(project "Guantes traductores"
+				(path "/00699b90-32f8-49a9-88ac-8ba611fc0511/6f5c565c-9347-4b14-95b0-f95815e8625c"
+					(reference "R24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 71.12 85.09 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "99174103-1624-4c4d-b057-3b797d7b0f6f")
+		(property "Reference" "R19"
+			(at 73.152 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 68.58 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 72.898 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 71.12 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 71.12 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "42d4b319-a729-4d70-b318-4cff8c1e66b1")
+		)
+		(pin "1"
+			(uuid "c35bc868-25c2-42b0-8a38-9339e12c86c8")
+		)
+		(instances
+			(project "Guantes traductores"
+				(path "/00699b90-32f8-49a9-88ac-8ba611fc0511/6f5c565c-9347-4b14-95b0-f95815e8625c"
+					(reference "R19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 135.89 46.99 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9d34200c-4cbe-4c24-a61c-5eb8b3f9847d")
+		(property "Reference" "R15"
+			(at 140.462 46.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100k"
+			(at 138.43 47.244 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 137.668 46.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 135.89 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 135.89 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6b95d1bb-c963-4e84-8b1a-4e2e7e7cbcc9")
+		)
+		(pin "1"
+			(uuid "96f363cd-36df-47f2-9df6-ff491d2aacac")
+		)
+		(instances
+			(project "Guantes traductores"
+				(path "/00699b90-32f8-49a9-88ac-8ba611fc0511/6f5c565c-9347-4b14-95b0-f95815e8625c"
+					(reference "R15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 166.37 34.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a63bb386-b07d-4018-b32d-bd6a9adfe851")
+		(property "Reference" "J7"
+			(at 167.005 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Flex5"
+			(at 167.005 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical"
+			(at 166.37 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 166.37 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 166.37 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2854d154-070f-427c-b917-b1f9e79ed6b6")
+		)
+		(pin "1"
+			(uuid "0bc9d7f7-9f77-40d7-b371-f9d94d80600c")
+		)
+		(instances
+			(project "Guantes traductores"
+				(path "/00699b90-32f8-49a9-88ac-8ba611fc0511/6f5c565c-9347-4b14-95b0-f95815e8625c"
+					(reference "J7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 100.33 34.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a885547f-be8f-4ee9-90d2-254b980f5f67")
+		(property "Reference" "J5"
+			(at 100.965 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Flex3"
+			(at 100.965 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical"
+			(at 100.33 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 100.33 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 100.33 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "658496ff-8bca-47d1-bb51-aa1da951e450")
+		)
+		(pin "1"
+			(uuid "703f8a72-afa1-4e7b-b6f4-b01047118b65")
+		)
+		(instances
+			(project "Guantes traductores"
+				(path "/00699b90-32f8-49a9-88ac-8ba611fc0511/6f5c565c-9347-4b14-95b0-f95815e8625c"
+					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 130.81 34.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ae3146cb-67dc-4dac-9856-74bceb706ff3")
+		(property "Reference" "J6"
+			(at 131.445 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Flex4"
+			(at 131.445 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical"
+			(at 130.81 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 130.81 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 130.81 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2e7a2f11-3863-4083-8983-926d576b38c4")
+		)
+		(pin "1"
+			(uuid "1bb931bd-d239-48c1-8807-689156003482")
+		)
+		(instances
+			(project "Guantes traductores"
+				(path "/00699b90-32f8-49a9-88ac-8ba611fc0511/6f5c565c-9347-4b14-95b0-f95815e8625c"
+					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:LMV324")
+		(at 102.87 64.77 0)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b684f846-73eb-4673-bcd3-2f6b8b976f0e")
+		(property "Reference" "U4"
+			(at 103.124 60.452 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LMV324"
+			(at 102.108 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
+			(at 101.6 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lmv324.pdf"
+			(at 104.14 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quad Low-Voltage Rail-to-Rail Output Operational Amplifier, SOIC-14/SSOP-14"
+			(at 102.87 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "13"
+			(uuid "62a251ed-a37d-44b6-80a3-7b5b66f26285")
+		)
+		(pin "12"
+			(uuid "76b4e489-b432-44a8-b221-eb344267ec29")
+		)
+		(pin "1"
+			(uuid "88c5c5db-d70a-43c7-b3fb-92224ed56098")
+		)
+		(pin "6"
+			(uuid "2f980abd-0ca7-4efc-ab9b-fc69270fe0b1")
+		)
+		(pin "3"
+			(uuid "7fa0c178-7f2f-4f6c-a4bb-ebb8828bc1ae")
+		)
+		(pin "7"
+			(uuid "5c2b0f0b-027a-4148-a4ae-6ff6495220af")
+		)
+		(pin "9"
+			(uuid "c27b9864-49fe-4c9f-b182-93300409350d")
+		)
+		(pin "8"
+			(uuid "02b897ed-700e-438e-a7ff-af9edc4a778c")
+		)
+		(pin "2"
+			(uuid "ff464b3f-695b-4f21-90d5-1955ca1ba325")
+		)
+		(pin "14"
+			(uuid "dbcade5b-33a3-40c3-bc2c-1cf13abc97e9")
+		)
+		(pin "11"
+			(uuid "24c7743c-2f8d-449f-b447-9247f120cc86")
+		)
+		(pin "4"
+			(uuid "663e240f-7010-4fbf-9e44-7778e4c831d5")
+		)
+		(pin "5"
+			(uuid "31ffe233-7fec-43c6-b04f-a0349de8d688")
+		)
+		(pin "10"
+			(uuid "bb1464a5-48c0-4f7b-9ae9-481215ac02bf")
+		)
+		(instances
+			(project "Guantes traductores"
+				(path "/00699b90-32f8-49a9-88ac-8ba611fc0511/6f5c565c-9347-4b14-95b0-f95815e8625c"
+					(reference "U4")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 52.07 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b9d40c44-671c-4568-a840-3c05908c9a48")
+		(property "Reference" "J12"
+			(at 51.562 93.218 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Contacto3"
+			(at 55.118 76.962 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical"
+			(at 52.07 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 52.07 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 52.07 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "55ea2c42-9aa4-4c76-b8eb-cfbdb58c5e9c")
+		)
+		(pin "1"
+			(uuid "075f2719-bf4f-4518-bed9-21aea79191ff")
+		)
+		(instances
+			(project "Guantes traductores"
+				(path "/00699b90-32f8-49a9-88ac-8ba611fc0511/6f5c565c-9347-4b14-95b0-f95815e8625c"
+					(reference "J12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 57.15 85.09 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ba148f44-49b4-4705-a04e-40fb6e21985d")
+		(property "Reference" "R20"
+			(at 59.182 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 54.61 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 58.928 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 57.15 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 57.15 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ac249471-1685-4985-9297-5cf997cd7114")
+		)
+		(pin "1"
+			(uuid "522b93d2-ee71-4245-8b92-da7bb9ba6db8")
+		)
+		(instances
+			(project "Guantes traductores"
+				(path "/00699b90-32f8-49a9-88ac-8ba611fc0511/6f5c565c-9347-4b14-95b0-f95815e8625c"
+					(reference "R20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 29.21 85.09 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bc4e04a7-eccf-4945-ad7b-915d2d55bba8")
+		(property "Reference" "R9"
+			(at 31.242 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 26.67 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 30.988 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 29.21 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 29.21 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "fda8bdb8-3ef3-40af-b2ab-f5dfda62ec1c")
+		)
+		(pin "1"
+			(uuid "5a15a72f-4ba9-49c4-b062-fb529b693d5e")
+		)
+		(instances
+			(project "Guantes traductores"
+				(path "/00699b90-32f8-49a9-88ac-8ba611fc0511/6f5c565c-9347-4b14-95b0-f95815e8625c"
+					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 93.98 95.25 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "be21f04d-4ebd-49a2-a61c-4e81c9152fdf")
+		(property "Reference" "C7"
+			(at 90.932 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 90.932 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 93.0148 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 93.98 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 93.98 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "997003d1-42c0-496c-becd-56a3c1a17467")
+		)
+		(pin "2"
+			(uuid "eff5c806-f420-4547-af69-e4c1424f4492")
+		)
+		(instances
+			(project "Guantes traductores"
+				(path "/00699b90-32f8-49a9-88ac-8ba611fc0511/6f5c565c-9347-4b14-95b0-f95815e8625c"
+					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 71.12 46.99 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ca0b0abf-c67f-48eb-9b96-701120f32f11")
+		(property "Reference" "C11"
+			(at 68.072 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 68.072 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 70.1548 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 71.12 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 71.12 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2f611edf-a481-4036-9e3e-2a42daebab3a")
+		)
+		(pin "2"
+			(uuid "1172870b-0392-4ba4-ac78-c4f4cf360b43")
+		)
+		(instances
+			(project "Guantes traductores"
+				(path "/00699b90-32f8-49a9-88ac-8ba611fc0511/6f5c565c-9347-4b14-95b0-f95815e8625c"
+					(reference "C11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 39.37 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cd91f80c-0d62-46fb-b7dd-ae5ac8558056")
+		(property "Reference" "J3"
+			(at 40.005 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Flex1"
+			(at 40.005 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical"
+			(at 39.37 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 39.37 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 39.37 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8605df7d-06ac-4faa-8424-cacd6ad7ce2e")
+		)
+		(pin "1"
+			(uuid "7d64b8d1-13c8-4497-9a3d-965f97a3d744")
+		)
+		(instances
+			(project "Guantes traductores"
+				(path "/00699b90-32f8-49a9-88ac-8ba611fc0511/6f5c565c-9347-4b14-95b0-f95815e8625c"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 38.1 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e54e945f-c809-4597-8ba8-c37f6e0551e8")
+		(property "Reference" "J11"
+			(at 37.592 93.218 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Contacto2"
+			(at 41.148 76.962 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical"
+			(at 38.1 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 38.1 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 38.1 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "777e499b-9245-46ff-90f3-fce344c99751")
+		)
+		(pin "1"
+			(uuid "7c8bb787-740c-4a61-a2bc-c9ae9075b24e")
+		)
+		(instances
+			(project "Guantes traductores"
+				(path "/00699b90-32f8-49a9-88ac-8ba611fc0511/6f5c565c-9347-4b14-95b0-f95815e8625c"
+					(reference "J11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 105.41 46.99 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e923db01-5ecd-4e16-852e-863b8a294efa")
+		(property "Reference" "R14"
+			(at 109.982 46.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100k"
+			(at 107.95 47.244 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 107.188 46.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 105.41 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 105.41 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8523e762-f460-4ae8-9d95-8aaafd924c8e")
+		)
+		(pin "1"
+			(uuid "63d28fb5-5013-40dc-904e-ca8a58ffdc1d")
+		)
+		(instances
+			(project "Guantes traductores"
+				(path "/00699b90-32f8-49a9-88ac-8ba611fc0511/6f5c565c-9347-4b14-95b0-f95815e8625c"
+					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 44.45 48.26 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f1448591-9c0f-404b-b380-a6c51d92f71b")
+		(property "Reference" "R22"
+			(at 48.514 48.514 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100k"
+			(at 46.482 48.006 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 46.228 48.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 44.45 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 44.45 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "90727992-51c0-4d3d-9836-d27230b7a6ea")
+		)
+		(pin "1"
+			(uuid "3003364a-c84a-4018-8fe1-e33c9a99dbf8")
+		)
+		(instances
+			(project "Guantes traductores"
+				(path "/00699b90-32f8-49a9-88ac-8ba611fc0511/6f5c565c-9347-4b14-95b0-f95815e8625c"
+					(reference "R22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 69.85 34.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f4f097b6-8c4b-4bfd-bec1-e20cd11ce38f")
+		(property "Reference" "J4"
+			(at 70.485 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Flex2"
+			(at 70.485 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical"
+			(at 69.85 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 69.85 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 69.85 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ee957e8d-d37d-449b-b693-ed510ce8ce64")
+		)
+		(pin "1"
+			(uuid "3b9b0528-a364-4f0e-8a90-e3d4a500ed04")
+		)
+		(instances
+			(project "Guantes traductores"
+				(path "/00699b90-32f8-49a9-88ac-8ba611fc0511/6f5c565c-9347-4b14-95b0-f95815e8625c"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
