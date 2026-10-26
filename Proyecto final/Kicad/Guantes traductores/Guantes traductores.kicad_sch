@@ -5,6 +5,146 @@
 	(uuid "00699b90-32f8-49a9-88ac-8ba611fc0511")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Device:R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+3.3V"
 			(power global)
 			(pin_numbers
@@ -532,6 +672,12 @@
 		(color 0 0 0 0)
 		(uuid "8cc803ac-4d46-40b1-b564-93576c5f86f5")
 	)
+	(junction
+		(at 140.97 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f3ac09e7-b6d4-4291-b9d7-f5d967f01266")
+	)
 	(no_connect
 		(at 64.77 88.9)
 		(uuid "265a9d25-133f-4080-bb1f-a428c8ede99e")
@@ -563,6 +709,16 @@
 	(no_connect
 		(at 111.76 102.87)
 		(uuid "f48812f2-1c7c-4cf5-b7d1-b42320cf90b8")
+	)
+	(wire
+		(pts
+			(xy 135.89 107.95) (xy 135.89 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0595902d-450b-4558-a298-8153462cff8a")
 	)
 	(wire
 		(pts
@@ -616,6 +772,16 @@
 	)
 	(wire
 		(pts
+			(xy 143.51 111.76) (xy 143.51 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "153f7d29-9482-4b5c-84a8-e858f9a5ac29")
+	)
+	(wire
+		(pts
 			(xy 198.12 63.5) (xy 193.04 63.5)
 		)
 		(stroke
@@ -636,6 +802,16 @@
 	)
 	(wire
 		(pts
+			(xy 132.08 86.36) (xy 138.43 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "236a28f1-73a2-45b5-9dd4-5fcdd779b808")
+	)
+	(wire
+		(pts
 			(xy 181.61 19.05) (xy 181.61 27.94)
 		)
 		(stroke
@@ -643,6 +819,16 @@
 			(type default)
 		)
 		(uuid "24125b6b-46f9-4360-b300-b08f2fb16016")
+	)
+	(wire
+		(pts
+			(xy 132.08 90.17) (xy 138.43 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "292092c4-a29e-46ac-ae6b-3cde74905e4e")
 	)
 	(wire
 		(pts
@@ -756,6 +942,16 @@
 	)
 	(wire
 		(pts
+			(xy 132.08 119.38) (xy 143.51 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79398e0f-9c0a-4fc6-bb4c-f9ba6d427afb")
+	)
+	(wire
+		(pts
 			(xy 138.43 60.96) (xy 130.81 60.96)
 		)
 		(stroke
@@ -773,6 +969,16 @@
 			(type default)
 		)
 		(uuid "83b1e68a-33c0-416a-b510-20e2844af109")
+	)
+	(wire
+		(pts
+			(xy 135.89 106.68) (xy 140.97 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "853fc38f-0bf8-4b63-be65-d0baca498330")
 	)
 	(wire
 		(pts
@@ -836,6 +1042,16 @@
 	)
 	(wire
 		(pts
+			(xy 143.51 106.68) (xy 140.97 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a90a1665-2640-4280-a6b6-d250af70dd6e")
+	)
+	(wire
+		(pts
 			(xy 130.81 60.96) (xy 130.81 62.23)
 		)
 		(stroke
@@ -863,6 +1079,16 @@
 			(type default)
 		)
 		(uuid "cf1a0340-3e22-40a6-962c-1e7c7e1d424a")
+	)
+	(wire
+		(pts
+			(xy 132.08 115.57) (xy 135.89 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d02f4142-4990-45d0-bcc9-63dffd44f202")
 	)
 	(wire
 		(pts
@@ -1252,6 +1478,30 @@
 			)
 		)
 	)
+	(global_label "I2C_SDA"
+		(shape bidirectional)
+		(at 132.08 119.38 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "559400bc-c68c-4dda-a223-aa079c0b7212")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 120.3635 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "VBat"
 		(shape input)
 		(at 109.22 63.5 0)
@@ -1532,7 +1782,7 @@
 	)
 	(global_label "I2C_SDA"
 		(shape bidirectional)
-		(at 138.43 90.17 180)
+		(at 132.08 90.17 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1542,7 +1792,7 @@
 		)
 		(uuid "b3082cdd-8429-4791-9223-28e56617efdd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 126.7135 90.17 0)
+			(at 120.3635 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1630,7 +1880,31 @@
 	)
 	(global_label "I2C_SCL"
 		(shape bidirectional)
-		(at 138.43 86.36 180)
+		(at 132.08 115.57 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "dac45d69-6dc6-41a4-848e-c2d94a0e7843")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 120.424 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "I2C_SCL"
+		(shape bidirectional)
+		(at 132.08 86.36 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1640,7 +1914,7 @@
 		)
 		(uuid "ff4db307-efeb-4657-a335-91f96e62924d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 126.774 86.36 0)
+			(at 120.424 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1803,6 +2077,85 @@
 			(project "Guantes traductores"
 				(path "/00699b90-32f8-49a9-88ac-8ba611fc0511"
 					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 135.89 111.76 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "09bda0b3-4814-4b94-ab9f-b869bf059e67")
+		(property "Reference" "R13"
+			(at 138.43 111.76 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5.1k"
+			(at 133.35 111.76 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 137.668 111.76 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.89 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 135.89 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "fd294b42-f0de-4240-9cad-c0a9576e5c40")
+		)
+		(pin "1"
+			(uuid "643686c8-b81a-49f6-9645-7f27d16a32cd")
+		)
+		(instances
+			(project "Guantes traductores"
+				(path "/00699b90-32f8-49a9-88ac-8ba611fc0511"
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -2354,6 +2707,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 143.51 115.57 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "57d85376-3892-4fe3-9753-670ea5e7b20e")
+		(property "Reference" "R21"
+			(at 146.05 115.57 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5.1k"
+			(at 140.97 115.57 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 145.288 115.57 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 143.51 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 143.51 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "9dbd16e0-9b9c-4f8d-8f9a-e5fe1707f485")
+		)
+		(pin "1"
+			(uuid "3a9f9f1a-cb02-431d-a925-79e4969d2cab")
+		)
+		(instances
+			(project "Guantes traductores"
+				(path "/00699b90-32f8-49a9-88ac-8ba611fc0511"
+					(reference "R21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 133.35 57.15 0)
 		(unit 1)
@@ -2660,6 +3092,84 @@
 			(project "Guantes traductores"
 				(path "/00699b90-32f8-49a9-88ac-8ba611fc0511"
 					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 140.97 106.68 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a5bc0f12-af86-4b7a-809c-8ff71c6818e3")
+		(property "Reference" "#PWR015"
+			(at 140.97 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 140.97 101.6 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 140.97 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 140.97 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 140.97 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "de64fce5-69ba-497e-842b-ce87ab5cd012")
+		)
+		(instances
+			(project "Guantes traductores"
+				(path "/00699b90-32f8-49a9-88ac-8ba611fc0511"
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)

@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.8,
-          "height": 1.27,
-          "width": 2.54
+          "drill": 0.2,
+          "height": 0.3,
+          "width": 0.3
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -60,12 +60,12 @@
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.5,
+          "min_clearance": 0.25,
           "min_island_area": 10.0,
           "min_thickness": 0.25,
           "pad_connection": 1,
-          "remove_islands": 0,
-          "thermal_relief_gap": 0.5,
+          "remove_islands": 1,
+          "thermal_relief_gap": 0.1,
           "thermal_relief_spoke_width": 0.5
         }
       },
@@ -213,7 +213,10 @@
         }
       ],
       "track_widths": [
-        0.0
+        0.0,
+        0.2,
+        0.4,
+        0.6
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -278,15 +281,15 @@
   "erc": {
     "erc_exclusions": [
       [
-        "pin_to_pin|1130300|635000|fe917994-7940-428f-aa8f-296c8e097096|4b574f71-688f-420a-92d3-688f313ad308|/00699b90-32f8-49a9-88ac-8ba611fc0511/b987569c-50a5-4036-be29-da17e945f358|/00699b90-32f8-49a9-88ac-8ba611fc0511/b987569c-50a5-4036-be29-da17e945f358|/00699b90-32f8-49a9-88ac-8ba611fc0511",
+        "pin_to_pin|1130300|635000|fe917994-7940-428f-aa8f-296c8e097096|4b574f71-688f-420a-92d3-688f313ad308|||",
         ""
       ],
       [
-        "pin_to_pin|901700|901700|65926800-1fe9-4d4a-a758-d88a76e31bd3|d7291b8a-b17a-45ed-9ed8-7d8ba3b02747|/00699b90-32f8-49a9-88ac-8ba611fc0511/c4beff49-d50b-4a5c-9cf7-50a7c6760d68|/00699b90-32f8-49a9-88ac-8ba611fc0511/c4beff49-d50b-4a5c-9cf7-50a7c6760d68|/00699b90-32f8-49a9-88ac-8ba611fc0511",
+        "pin_to_pin|901700|901700|65926800-1fe9-4d4a-a758-d88a76e31bd3|d7291b8a-b17a-45ed-9ed8-7d8ba3b02747|||",
         ""
       ],
       [
-        "power_pin_not_driven|863600|330200|be53a8dc-1f93-4487-8ccd-c8676e3eab6d|00000000-0000-0000-0000-000000000000|/00699b90-32f8-49a9-88ac-8ba611fc0511/2792e1d6-3046-481b-a5f3-b4e2322d8757|/00699b90-32f8-49a9-88ac-8ba611fc0511/2792e1d6-3046-481b-a5f3-b4e2322d8757|",
+        "power_pin_not_driven|863600|330200|be53a8dc-1f93-4487-8ccd-c8676e3eab6d|00000000-0000-0000-0000-000000000000|||",
         ""
       ]
     ],
@@ -698,7 +701,7 @@
         "uuid": "00699b90-32f8-49a9-88ac-8ba611fc0511"
       }
     ],
-    "used_designators": "#FLG1-3,#PWR7-14,C4,D4-13,R17-18",
+    "used_designators": "#FLG1-3,#PWR7-15,C4,D4-13,R13,R17-18,R21",
     "variants": []
   },
   "sheets": [
