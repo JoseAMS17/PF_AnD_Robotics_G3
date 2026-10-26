@@ -17,3 +17,13 @@ fp-info-cache
 *.dsn
 *.ses
 *.zip
+# --- KiCad 10 (anadido 2026-10-26) ---
+# Archivos de bloqueo que KiCad crea mientras el proyecto esta abierto
+*.lck
+# Respaldos de KiCad 10: el patron viejo *.sch-bak NO los tapa
+*.kicad_sch-bak
+*.kicad_dru-bak
+# Carpeta de respaldos automaticos de KiCad
+*-backups/
+# Historial local del editor
+.history/
