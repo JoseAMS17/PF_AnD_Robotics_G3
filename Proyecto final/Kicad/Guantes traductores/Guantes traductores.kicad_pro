@@ -65,7 +65,7 @@
           "min_thickness": 0.25,
           "pad_connection": 2,
           "remove_islands": 1,
-          "thermal_relief_gap": 0.1,
+          "thermal_relief_gap": 0.5,
           "thermal_relief_spoke_width": 0.5
         }
       },
