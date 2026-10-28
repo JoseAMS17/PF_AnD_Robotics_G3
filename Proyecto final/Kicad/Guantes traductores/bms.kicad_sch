@@ -365,6 +365,370 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "lcsc_imported:SS12D10G5"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 0 1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SS12D10G5"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "lcsc_footprints:C7431054_SW-TH_SHOU-HAN_SS12D10G4"
+				(at 0 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2311301507_SHOU-HAN-SS12D10G5_C7431054.pdf"
+				(at -2.286 0.127 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "SS12D10G5"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC" "C7431054"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "SHOU HAN(首韩)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "SS12D10G5_1_1"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -2.794 0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -2.286 0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -2.54 2.032) (xy 0 2.032) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -2.54 -0.762)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 4.572) (xy 0.508 4.572)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.032) (xy 0 4.572)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy -0.254 0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0.254 0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 -0.762)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 4.572) (xy 1.524 4.572)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.032 4.572) (xy 2.54 4.572)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 4.572) (xy 2.54 4.064)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 3.556) (xy 2.54 2.794)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.286) (xy 2.54 1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.016) (xy 2.54 0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0.254) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 2.286 0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 2.794 0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 -0.762)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin unspecified line
+					(at -2.54 -3.556 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -3.556 90)
+					(length 3.048)
+					(name "2"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 2.54 -3.556 90)
+					(length 2.54)
+					(name "3"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(junction
 		(at 118.11 78.74)
@@ -376,7 +740,7 @@
 		(at 113.03 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "e60c0997-3fbc-4ddc-8762-a657bfe95914")
+		(uuid "15337ed3-78df-47fd-9edb-6c426b52ab37")
 	)
 	(wire
 		(pts
@@ -400,16 +764,6 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 91.44) (xy 118.11 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3ad12640-71ed-4245-90e1-2c73db7bc554")
-	)
-	(wire
-		(pts
 			(xy 71.12 90.17) (xy 72.39 90.17)
 		)
 		(stroke
@@ -420,13 +774,23 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 91.44) (xy 113.03 92.71)
+			(xy 115.57 95.25) (xy 118.11 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5b118071-55f1-4ac9-9b7b-a5ca7b54e65d")
+		(uuid "521e9266-7ec3-486b-82ce-88d490694692")
+	)
+	(wire
+		(pts
+			(xy 113.03 91.44) (xy 113.03 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56374b26-d813-429d-8fa7-fd1a225ed795")
 	)
 	(wire
 		(pts
@@ -437,6 +801,16 @@
 			(type default)
 		)
 		(uuid "65f9718c-5e97-4a80-b72d-4dbb11ae0d91")
+	)
+	(wire
+		(pts
+			(xy 113.03 91.44) (xy 118.11 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73198f13-9417-43df-a844-707cd2dc1e43")
 	)
 	(wire
 		(pts
@@ -457,6 +831,16 @@
 			(type default)
 		)
 		(uuid "9adb194b-f721-4584-a5b3-68d60f072f0f")
+	)
+	(wire
+		(pts
+			(xy 107.95 91.44) (xy 113.03 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad8aed26-7d33-4e08-8109-cb90cb52deb0")
 	)
 	(wire
 		(pts
@@ -487,16 +871,6 @@
 			(type default)
 		)
 		(uuid "eb438abd-802b-4969-9f94-f935e29f2c0a")
-	)
-	(wire
-		(pts
-			(xy 107.95 91.44) (xy 113.03 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f8cb46db-bf99-450e-ac03-0d13b19d69ed")
 	)
 	(wire
 		(pts
@@ -565,14 +939,121 @@
 	)
 	(hierarchical_label "Vout"
 		(shape output)
-		(at 113.03 92.71 270)
+		(at 118.11 95.25 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "dbfa42cd-fe78-4297-8a1a-e15261314285")
+	)
+	(symbol
+		(lib_id "lcsc_imported:SS12D10G5")
+		(at 113.03 98.806 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2f8eb822-0a48-4a70-80a1-7394cdc2415c")
+		(property "Reference" "U6"
+			(at 116.84 99.3139 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SS12D10G5"
+			(at 116.84 101.8539 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "lcsc_footprints:C7431054_SW-TH_SHOU-HAN_SS12D10G4"
+			(at 113.03 88.646 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2311301507_SHOU-HAN-SS12D10G5_C7431054.pdf"
+			(at 115.316 98.933 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "SS12D10G5"
+			(at 113.03 98.806 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C7431054"
+			(at 113.03 98.806 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "SHOU HAN(首韩)"
+			(at 113.03 98.806 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "9dee4d06-17e2-40ef-bdca-a6d2fcd8569b")
+		)
+		(pin "3"
+			(uuid "94b1e0f0-585e-41a7-ab38-e09cc6d534dd")
+		)
+		(pin "1"
+			(uuid "1c3259b0-15aa-4ce9-b29f-0d9a55530e19")
+		)
+		(instances
+			(project "Guantes traductores"
+				(path "/00699b90-32f8-49a9-88ac-8ba611fc0511/c4beff49-d50b-4a5c-9cf7-50a7c6760d68"
+					(reference "U6")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Custom board:TP4056_Board")
