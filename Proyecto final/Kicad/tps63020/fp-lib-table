@@ -1,0 +1,6 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "Videos") (type "KiCad") (uri "C:/Users/Administrator/Videos.pretty") (options "") (descr ""))
+	(lib (name "tps63020") (type "KiCad") (uri "C:/Users/Administrator/Videos/tps63020.pretty") (options "") (descr ""))
+	(lib (name "tps63020") (type "KiCad") (uri "C:/Users/Administrator/OneDrive - Instituto Tecnológico de Las Américas (ITLA)/PROYECTO FINAL y ROBOTICA/PF_AnD_Robotics_G3-main/Proyecto final/Kicad/tps63020.pretty") (options "") (descr ""))
+)

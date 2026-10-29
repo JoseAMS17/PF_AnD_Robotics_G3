@@ -1,4 +1,7 @@
 (fp_lib_table
 	(version 7)
 	(lib (name "Datasheets") (type "KiCad") (uri "C:/Users/Junior/Documents/ITLA/Proyecto Final y Robotica/Datasheets.pretty") (options "") (descr ""))
+	(lib (name "tps63020") (type "KiCad") (uri "C:/Users/Junior/Documents/KiCad/Ext footprints/tps63020/tps63020.pretty") (options "") (descr ""))
+	(lib (name "Library") (type "KiCad") (uri "C:/Users/Junior/Documents/KiCad/Ext footprints/tps63020/tps63020/Library.pretty") (options "") (descr ""))
+	(lib (name "lcsc_footprints") (type "KiCad") (uri "${KIPRJMOD}/libs/lcsc/footprints.pretty") (options "") (descr "LCSC Manager imported footprints"))
 )

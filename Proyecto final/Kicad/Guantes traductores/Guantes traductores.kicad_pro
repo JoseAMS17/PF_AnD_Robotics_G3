@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.2,
-          "height": 0.3,
-          "width": 0.3
+          "drill": 2.2,
+          "height": 2.6,
+          "width": 2.6
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -63,7 +63,7 @@
           "min_clearance": 0.25,
           "min_island_area": 10.0,
           "min_thickness": 0.25,
-          "pad_connection": 1,
+          "pad_connection": 2,
           "remove_islands": 1,
           "thermal_relief_gap": 0.1,
           "thermal_relief_spoke_width": 0.5
@@ -150,7 +150,7 @@
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.5,
         "min_groove_width": 0.0,
-        "min_hole_clearance": 0.25,
+        "min_hole_clearance": 0.15,
         "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
@@ -158,9 +158,9 @@
         "min_silk_clearance": 0.0,
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
-        "min_through_hole_diameter": 0.3,
+        "min_through_hole_diameter": 0.2,
         "min_track_width": 0.15,
-        "min_via_annular_width": 0.1,
+        "min_via_annular_width": 0.05,
         "min_via_diameter": 0.5,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
@@ -285,7 +285,15 @@
         ""
       ],
       [
+        "pin_to_pin|901700|901700|65926800-1fe9-4d4a-a758-d88a76e31bd3|d7291b8a-b17a-45ed-9ed8-7d8ba3b02747|/00699b90-32f8-49a9-88ac-8ba611fc0511/c4beff49-d50b-4a5c-9cf7-50a7c6760d68|/00699b90-32f8-49a9-88ac-8ba611fc0511/c4beff49-d50b-4a5c-9cf7-50a7c6760d68|/00699b90-32f8-49a9-88ac-8ba611fc0511",
+        ""
+      ],
+      [
         "pin_to_pin|901700|901700|65926800-1fe9-4d4a-a758-d88a76e31bd3|d7291b8a-b17a-45ed-9ed8-7d8ba3b02747|||",
+        ""
+      ],
+      [
+        "power_pin_not_driven|863600|330200|be53a8dc-1f93-4487-8ccd-c8676e3eab6d|00000000-0000-0000-0000-000000000000|/00699b90-32f8-49a9-88ac-8ba611fc0511/2792e1d6-3046-481b-a5f3-b4e2322d8757|/00699b90-32f8-49a9-88ac-8ba611fc0511/2792e1d6-3046-481b-a5f3-b4e2322d8757|",
         ""
       ],
       [
@@ -701,7 +709,7 @@
         "uuid": "00699b90-32f8-49a9-88ac-8ba611fc0511"
       }
     ],
-    "used_designators": "#FLG1-3,#PWR7-15,C4,D4-13,R13,R17-18,R21",
+    "used_designators": "#FLG1-3,#PWR7-16,#PWR21-22,C4,D4-17,R13,R17-18,R21,R27-29,U6,U9-10",
     "variants": []
   },
   "sheets": [
