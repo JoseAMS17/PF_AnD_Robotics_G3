@@ -27,3 +27,20 @@ fp-info-cache
 *-backups/
 # Historial local del editor
 .history/
+
+# --- APP-PF (anadido 2026-10-29) ---
+# Ruedas de pip: 269 MB, se regeneran con pip download -r requirements.txt
+APP-PF/ruedas/
+# Modelos de MediaPipe: los baja instalar.ps1
+APP-PF/modelos/
+# Intermedios de PyInstaller y el portable
+APP-PF/dist/
+APP-PF/build/
+APP-PF/*.zip
+# Entorno virtual y caches de Python
+APP-PF/.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+# Config local: la IP del broker cambia en cada PC
+APP-PF/config.json

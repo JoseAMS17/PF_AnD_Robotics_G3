@@ -1,0 +1,27 @@
+# App de PC de los guantes traductores de LSD.
+# Python 3.12 (comprobado: 3.12.10 en esta PC). MediaPipe declara 3.9 a 3.14.
+#
+#   python -m venv .venv
+#   .venv\Scripts\activate
+#   pip install -r requirements.txt
+
+# --- parte 1: contrato y simulador (no hace falta nada de abajo) ---
+pytest==8.3.4
+
+# --- parte 2: enlace ---
+paho-mqtt==2.1.0
+
+# --- parte 3: interfaz ---
+# PySide6, no Streamlit: Streamlit no sirve para tiempo real.
+PySide6==6.8.1.1
+
+# --- parte 4: cámara y rostro ---
+# mediapipe 1.1.1 trae rueda py3-none-win_amd64, comprobada en esta PC.
+mediapipe==1.1.1
+opencv-python==4.10.0.84
+numpy==1.26.4
+
+# --- empaquetado: el ejecutable portable ---
+# Ojo al empaquetar: MediaPipe lleva modelos .tflite y grafos que PyInstaller
+# no recoge solo. Hace falta --collect-all mediapipe.
+pyinstaller==6.11.1
