@@ -2321,7 +2321,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RF_Module:ESP32-C3-WROOM-02"
+		(property "Footprint" "Custom board:ESP32-C3-WROOM-02 mod"
 			(at 149.86 64.135 0)
 			(hide yes)
 			(show_name no)
