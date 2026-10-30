@@ -1170,7 +1170,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "PMEG6010CEH"
+		(property "Value" "SMD26PL-TP"
 			(at 110.49 89.2174 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1252,7 +1252,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "PMEG6010CEH"
+		(property "Value" "SMD26PL-TP"
 			(at 120.65 84.1374 90)
 			(show_name no)
 			(do_not_autoplace no)

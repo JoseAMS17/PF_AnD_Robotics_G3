@@ -4176,7 +4176,7 @@
 				)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "250k"
 			(at 173.99 47.244 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5340,7 +5340,7 @@
 				)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "250k"
 			(at 77.47 47.244 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5498,7 +5498,7 @@
 				)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "250k"
 			(at 138.43 47.244 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7065,7 +7065,7 @@
 				)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "250k"
 			(at 107.95 47.244 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7144,7 +7144,7 @@
 				)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "250k"
 			(at 46.482 48.006 90)
 			(show_name no)
 			(do_not_autoplace no)
