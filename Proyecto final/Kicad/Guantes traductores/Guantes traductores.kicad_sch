@@ -324,13 +324,13 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "lcsc_imported:HSMF-C113_C6795902"
+		(symbol "lcsc_imported:0805"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
+			(property "Reference" "LED"
 				(at 0 1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -340,7 +340,7 @@
 					)
 				)
 			)
-			(property "Value" "HSMF-C113_C6795902"
+			(property "Value" "0805"
 				(at 0 -2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -350,7 +350,7 @@
 					)
 				)
 			)
-			(property "Footprint" "lcsc_footprints:C6795902_LED-SMD_HSMF-C113"
+			(property "Footprint" "lcsc_footprints:C2297_LED0805-R-RD"
 				(at 0 -10.16 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -361,7 +361,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2306140943_Broadcom-AVAGO-HSMF-C113_C6795902.pdf"
+			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1806151820_Hubei-KENTO-Elec-KT-0805G_C2297.pdf"
 				(at -2.286 0.127 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -372,7 +372,7 @@
 					)
 				)
 			)
-			(property "Description" "HSMF-C113_C6795902"
+			(property "Description" "0805"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -383,7 +383,7 @@
 					)
 				)
 			)
-			(property "LCSC" "C6795902"
+			(property "LCSC" "C2297"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -394,7 +394,7 @@
 					)
 				)
 			)
-			(property "Manufacturer" "Broadcom(博通)"
+			(property "Manufacturer" "KENTO"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -405,22 +405,10 @@
 					)
 				)
 			)
-			(symbol "HSMF-C113_C6795902_1_1"
+			(symbol "0805_1_1"
 				(polyline
 					(pts
-						(xy -2.54 5.08) (xy -5.08 5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 3.556) (xy 0 5.08) (xy -2.54 6.858) (xy -2.54 3.556)
+						(xy -4.064 3.302) (xy -3.048 2.794) (xy -3.556 2.286) (xy -4.064 3.302)
 					)
 					(stroke
 						(width 0)
@@ -432,19 +420,7 @@
 				)
 				(polyline
 					(pts
-						(xy -2.54 0) (xy -5.08 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 -1.524) (xy 0 0) (xy -2.54 1.778) (xy -2.54 -1.524)
+						(xy -3.048 4.318) (xy -2.032 3.81) (xy -2.54 3.302) (xy -3.048 4.318)
 					)
 					(stroke
 						(width 0)
@@ -456,7 +432,7 @@
 				)
 				(polyline
 					(pts
-						(xy -2.54 -5.08) (xy -5.08 -5.08) (xy -5.08 5.08) (xy -5.08 5.08)
+						(xy -2.286 1.524) (xy -4.064 3.302)
 					)
 					(stroke
 						(width 0)
@@ -468,19 +444,7 @@
 				)
 				(polyline
 					(pts
-						(xy -2.54 -6.604) (xy 0 -5.08) (xy -2.54 -3.302) (xy -2.54 -6.604)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.508 6.858) (xy 1.27 8.636)
+						(xy -1.27 2.54) (xy -3.048 4.318)
 					)
 					(stroke
 						(width 0)
@@ -492,7 +456,7 @@
 				)
 				(polyline
 					(pts
-						(xy -0.508 1.778) (xy 1.27 3.556)
+						(xy -1.27 2.032) (xy -1.27 -2.032)
 					)
 					(stroke
 						(width 0)
@@ -504,187 +468,7 @@
 				)
 				(polyline
 					(pts
-						(xy -0.508 -3.302) (xy 1.27 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 5.08) (xy 2.54 5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 3.302) (xy 0 6.858)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -1.778) (xy 0 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -5.08) (xy 2.54 -5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -6.858) (xy 0 -3.302)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.508 5.842) (xy 2.286 7.62)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.508 0.762) (xy 2.286 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.508 -4.318) (xy 2.286 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 8.636) (xy 0.254 8.128) (xy 0.762 7.62) (xy 1.27 8.636)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 3.556) (xy 0.254 3.048) (xy 0.762 2.54) (xy 1.27 3.556)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.524) (xy 0.254 -2.032) (xy 0.762 -2.54) (xy 1.27 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.286 7.62) (xy 1.27 7.112) (xy 1.778 6.604) (xy 2.286 7.62)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.286 2.54) (xy 1.27 2.032) (xy 1.778 1.524) (xy 2.286 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.286 -2.54) (xy 1.27 -3.048) (xy 1.778 -3.556) (xy 2.286 -2.54)
+						(xy 1.27 -1.524) (xy -1.27 0) (xy 1.27 1.778) (xy 1.27 -1.524)
 					)
 					(stroke
 						(width 0)
@@ -695,9 +479,9 @@
 					)
 				)
 				(pin unspecified line
-					(at 7.62 5.08 180)
-					(length 5.08)
-					(name "1"
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "A"
 						(effects
 							(font
 								(size 1 1)
@@ -713,9 +497,9 @@
 					)
 				)
 				(pin unspecified line
-					(at -10.16 0 0)
-					(length 5.08)
-					(name "2"
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "K"
 						(effects
 							(font
 								(size 1 1)
@@ -723,42 +507,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 7.62 0 180)
-					(length 5.08)
-					(name "3"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 7.62 -5.08 180)
-					(length 5.08)
-					(name "4"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "4"
 						(effects
 							(font
 								(size 1 1)
@@ -1315,6 +1063,12 @@
 		(uuid "b29999cf-d2c2-40b6-b095-89fe207f423d")
 	)
 	(junction
+		(at 238.76 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bd29eebe-da88-4632-bfeb-9a81e73ff5ea")
+	)
+	(junction
 		(at 140.97 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1518,13 +1272,23 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 38.1) (xy 226.06 38.1)
+			(xy 234.95 38.1) (xy 238.76 38.1)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "45477d68-aa4e-40b2-a079-8ad9e43d3985")
+		(uuid "39df9a1b-64ba-4590-bb7f-0907e43bc0d8")
+	)
+	(wire
+		(pts
+			(xy 238.76 33.02) (xy 240.03 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44728aaa-853f-4859-862e-66596d3a6670")
 	)
 	(wire
 		(pts
@@ -1548,16 +1312,6 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 33.02) (xy 205.74 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4e70a951-c356-4456-864a-d633365a022d")
-	)
-	(wire
-		(pts
 			(xy 86.36 25.4) (xy 88.9 25.4)
 		)
 		(stroke
@@ -1565,6 +1319,16 @@
 			(type default)
 		)
 		(uuid "525a3af2-dd47-446b-80f1-4b589d76109f")
+	)
+	(wire
+		(pts
+			(xy 220.98 38.1) (xy 224.79 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54969854-796a-4103-80c8-aa402c014c67")
 	)
 	(wire
 		(pts
@@ -1618,16 +1382,6 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 33.02) (xy 240.03 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "72dbca3b-d9b9-4c6a-a815-0a2cc37842ee")
-	)
-	(wire
-		(pts
 			(xy 64.77 80.01) (xy 88.9 80.01)
 		)
 		(stroke
@@ -1658,6 +1412,16 @@
 	)
 	(wire
 		(pts
+			(xy 209.55 38.1) (xy 213.36 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "779f1bf8-8411-4e9c-90a4-5f39bc3350fb")
+	)
+	(wire
+		(pts
 			(xy 132.08 119.38) (xy 143.51 119.38)
 		)
 		(stroke
@@ -1665,16 +1429,6 @@
 			(type default)
 		)
 		(uuid "79398e0f-9c0a-4fc6-bb4c-f9ba6d427afb")
-	)
-	(wire
-		(pts
-			(xy 223.52 33.02) (xy 226.06 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7daac86a-0d6b-4258-9334-149868ab0c2a")
 	)
 	(wire
 		(pts
@@ -1728,16 +1482,6 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 38.1) (xy 237.49 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "870697aa-88e6-4bb4-9abc-226374328168")
-	)
-	(wire
-		(pts
 			(xy 125.73 29.21) (xy 140.97 29.21)
 		)
 		(stroke
@@ -1775,6 +1519,16 @@
 			(type default)
 		)
 		(uuid "9f894f3d-fb49-4277-89c1-0af653943a0e")
+	)
+	(wire
+		(pts
+			(xy 201.93 33.02) (xy 204.47 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a51077ca-e753-4673-bad0-be17f0746af5")
 	)
 	(wire
 		(pts
@@ -1855,6 +1609,16 @@
 			(type default)
 		)
 		(uuid "d2e332ab-2aa0-493f-a5c5-def02501ed5b")
+	)
+	(wire
+		(pts
+			(xy 224.79 33.02) (xy 212.09 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dcb94f2f-2132-49c8-b46b-40e1406d7333")
 	)
 	(wire
 		(pts
@@ -1958,6 +1722,16 @@
 	)
 	(wire
 		(pts
+			(xy 238.76 38.1) (xy 238.76 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1ccf70d-af82-488f-ad71-5807bf8b6105")
+	)
+	(wire
+		(pts
 			(xy 198.12 68.58) (xy 193.04 68.58)
 		)
 		(stroke
@@ -1965,6 +1739,16 @@
 			(type default)
 		)
 		(uuid "f7a33ddb-1d9a-417b-96f7-c820f2c6f87c")
+	)
+	(wire
+		(pts
+			(xy 234.95 33.02) (xy 238.76 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa362b79-5f80-4787-98aa-7a12e48d053f")
 	)
 	(global_label "IO9"
 		(shape bidirectional)
@@ -2446,7 +2230,7 @@
 	)
 	(global_label "IO10"
 		(shape bidirectional)
-		(at 237.49 38.1 0)
+		(at 209.55 38.1 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2454,11 +2238,11 @@
 				(thickness 0.254)
 				(bold yes)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "80a613b2-cb2e-4e1c-a58b-3106418e94fc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 246.4168 38.1 0)
+			(at 200.6232 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2466,7 +2250,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 	)
@@ -2791,114 +2575,6 @@
 			(project "Guantes traductores"
 				(path "/00699b90-32f8-49a9-88ac-8ba611fc0511"
 					(reference "#PWR011")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "lcsc_imported:HSMF-C113_C6795902")
-		(at 215.9 33.02 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "07807f72-8f36-426f-8341-18e3f5fd1c50")
-		(property "Reference" "U9"
-			(at 214.63 19.05 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "HSMF-C113_C6795902"
-			(at 214.63 21.59 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "lcsc_footprints:C6795902_LED-SMD_HSMF-C113"
-			(at 215.9 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2306140943_Broadcom-AVAGO-HSMF-C113_C6795902.pdf"
-			(at 213.614 32.893 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "HSMF-C113_C6795902"
-			(at 215.9 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C6795902"
-			(at 215.9 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Broadcom(博通)"
-			(at 215.9 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "4"
-			(uuid "ac1e432b-63d1-4fad-bb91-c1b44063a98c")
-		)
-		(pin "1"
-			(uuid "18f60452-381f-4683-be46-8faf822d8e21")
-		)
-		(pin "3"
-			(uuid "6ff287ba-0988-4a5e-8011-cd690b06e5c6")
-		)
-		(pin "2"
-			(uuid "377b90a6-0b68-4972-9e46-7d5367491bc4")
-		)
-		(instances
-			(project "Guantes traductores"
-				(path "/00699b90-32f8-49a9-88ac-8ba611fc0511"
-					(reference "U9")
 					(unit 1)
 				)
 			)
@@ -3531,6 +3207,107 @@
 		)
 	)
 	(symbol
+		(lib_id "lcsc_imported:0805")
+		(at 229.87 33.02 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "36f79f6a-61d3-4fee-8a48-1b949fffca9b")
+		(property "Reference" "LED2"
+			(at 229.362 27.432 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Yellow"
+			(at 229.616 29.21 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "lcsc_footprints:C2297_LED0805-R-RD"
+			(at 229.87 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1806151820_Hubei-KENTO-Elec-KT-0805G_C2297.pdf"
+			(at 232.156 33.147 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "0805"
+			(at 229.87 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2297"
+			(at 229.87 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "KENTO"
+			(at 229.87 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "82223dc7-3ad9-439e-b800-7d79f488c932")
+		)
+		(pin "1"
+			(uuid "a3bf7d6d-eab5-429d-a5ae-d6e4ac03cffe")
+		)
+		(instances
+			(project "Guantes traductores"
+				(path "/00699b90-32f8-49a9-88ac-8ba611fc0511"
+					(reference "LED2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 88.9 21.59 0)
 		(unit 1)
@@ -4155,7 +3932,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 229.87 38.1 270)
+		(at 217.17 38.1 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4165,7 +3942,7 @@
 		(dnp no)
 		(uuid "9cbb06b9-812c-46eb-afe5-668449a50dcd")
 		(property "Reference" "R29"
-			(at 229.87 36.068 90)
+			(at 217.17 40.386 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4175,7 +3952,7 @@
 			)
 		)
 		(property "Value" "200"
-			(at 229.87 38.1 90)
+			(at 217.17 38.1 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4185,7 +3962,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 229.87 36.322 90)
+			(at 217.17 36.322 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4196,7 +3973,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 229.87 38.1 0)
+			(at 217.17 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4207,7 +3984,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 229.87 38.1 0)
+			(at 217.17 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4698,7 +4475,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 229.87 33.02 270)
+		(at 208.28 33.02 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4708,7 +4485,7 @@
 		(dnp no)
 		(uuid "b2729f3a-6976-45c3-972d-fcd53cdd39a0")
 		(property "Reference" "R28"
-			(at 229.87 30.988 90)
+			(at 208.28 30.988 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4718,7 +4495,7 @@
 			)
 		)
 		(property "Value" "200"
-			(at 229.87 33.274 90)
+			(at 208.28 33.274 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4728,7 +4505,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 229.87 31.242 90)
+			(at 208.28 31.242 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4739,7 +4516,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 229.87 33.02 0)
+			(at 208.28 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4750,7 +4527,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 229.87 33.02 0)
+			(at 208.28 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4926,6 +4703,107 @@
 			(project "Guantes traductores"
 				(path "/00699b90-32f8-49a9-88ac-8ba611fc0511"
 					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lcsc_imported:0805")
+		(at 229.87 38.1 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d8570c98-c954-4c5c-8c28-f1de7ba77eac")
+		(property "Reference" "LED1"
+			(at 229.87 43.688 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Green"
+			(at 229.87 46.228 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "lcsc_footprints:C2297_LED0805-R-RD"
+			(at 229.87 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1806151820_Hubei-KENTO-Elec-KT-0805G_C2297.pdf"
+			(at 232.156 38.227 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "0805"
+			(at 229.87 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2297"
+			(at 229.87 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "KENTO"
+			(at 229.87 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "25a15bdd-bebd-467e-9bbc-b4b4eeefcd8b")
+		)
+		(pin "1"
+			(uuid "6e21ae18-98f0-483a-8712-0f053ccfa905")
+		)
+		(instances
+			(project "Guantes traductores"
+				(path "/00699b90-32f8-49a9-88ac-8ba611fc0511"
+					(reference "LED1")
 					(unit 1)
 				)
 			)
