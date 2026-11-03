@@ -1807,6 +1807,12 @@
 					(unit 1)
 				)
 			)
+			(project "Monitoreo de pulsos"
+				(path "/d20da240-99d3-476e-a1e4-d6b1d5953540/4e0c1dea-b95c-40b6-b28f-0d311b531667"
+					(reference "C5")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -1883,6 +1889,12 @@
 		(instances
 			(project "Guantes traductores"
 				(path "/00699b90-32f8-49a9-88ac-8ba611fc0511/1aa77cf3-43c9-4b2b-9dcc-9da0f59e952e"
+					(reference "SW1")
+					(unit 1)
+				)
+			)
+			(project "Monitoreo de pulsos"
+				(path "/d20da240-99d3-476e-a1e4-d6b1d5953540/4e0c1dea-b95c-40b6-b28f-0d311b531667"
 					(reference "SW1")
 					(unit 1)
 				)
@@ -1969,6 +1981,12 @@
 					(unit 1)
 				)
 			)
+			(project "Monitoreo de pulsos"
+				(path "/d20da240-99d3-476e-a1e4-d6b1d5953540/4e0c1dea-b95c-40b6-b28f-0d311b531667"
+					(reference "C6")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -2044,6 +2062,12 @@
 		(instances
 			(project "Guantes traductores"
 				(path "/00699b90-32f8-49a9-88ac-8ba611fc0511/1aa77cf3-43c9-4b2b-9dcc-9da0f59e952e"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+			(project "Monitoreo de pulsos"
+				(path "/d20da240-99d3-476e-a1e4-d6b1d5953540/4e0c1dea-b95c-40b6-b28f-0d311b531667"
 					(reference "R4")
 					(unit 1)
 				)
@@ -2127,6 +2151,12 @@
 					(unit 1)
 				)
 			)
+			(project "Monitoreo de pulsos"
+				(path "/d20da240-99d3-476e-a1e4-d6b1d5953540/4e0c1dea-b95c-40b6-b28f-0d311b531667"
+					(reference "R7")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -2206,6 +2236,12 @@
 					(unit 1)
 				)
 			)
+			(project "Monitoreo de pulsos"
+				(path "/d20da240-99d3-476e-a1e4-d6b1d5953540/4e0c1dea-b95c-40b6-b28f-0d311b531667"
+					(reference "R5")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -2281,6 +2317,12 @@
 		(instances
 			(project "Guantes traductores"
 				(path "/00699b90-32f8-49a9-88ac-8ba611fc0511/1aa77cf3-43c9-4b2b-9dcc-9da0f59e952e"
+					(reference "R8")
+					(unit 1)
+				)
+			)
+			(project "Monitoreo de pulsos"
+				(path "/d20da240-99d3-476e-a1e4-d6b1d5953540/4e0c1dea-b95c-40b6-b28f-0d311b531667"
 					(reference "R8")
 					(unit 1)
 				)
@@ -2418,6 +2460,12 @@
 					(unit 1)
 				)
 			)
+			(project "Monitoreo de pulsos"
+				(path "/d20da240-99d3-476e-a1e4-d6b1d5953540/4e0c1dea-b95c-40b6-b28f-0d311b531667"
+					(reference "U1")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -2500,6 +2548,12 @@
 					(unit 1)
 				)
 			)
+			(project "Monitoreo de pulsos"
+				(path "/d20da240-99d3-476e-a1e4-d6b1d5953540/4e0c1dea-b95c-40b6-b28f-0d311b531667"
+					(reference "C9")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -2575,6 +2629,12 @@
 		(instances
 			(project "Guantes traductores"
 				(path "/00699b90-32f8-49a9-88ac-8ba611fc0511/1aa77cf3-43c9-4b2b-9dcc-9da0f59e952e"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+			(project "Monitoreo de pulsos"
+				(path "/d20da240-99d3-476e-a1e4-d6b1d5953540/4e0c1dea-b95c-40b6-b28f-0d311b531667"
 					(reference "R6")
 					(unit 1)
 				)
@@ -2659,6 +2719,12 @@
 					(unit 1)
 				)
 			)
+			(project "Monitoreo de pulsos"
+				(path "/d20da240-99d3-476e-a1e4-d6b1d5953540/4e0c1dea-b95c-40b6-b28f-0d311b531667"
+					(reference "SW2")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -2737,6 +2803,12 @@
 		(instances
 			(project "Guantes traductores"
 				(path "/00699b90-32f8-49a9-88ac-8ba611fc0511/1aa77cf3-43c9-4b2b-9dcc-9da0f59e952e"
+					(reference "C10")
+					(unit 1)
+				)
+			)
+			(project "Monitoreo de pulsos"
+				(path "/d20da240-99d3-476e-a1e4-d6b1d5953540/4e0c1dea-b95c-40b6-b28f-0d311b531667"
 					(reference "C10")
 					(unit 1)
 				)
