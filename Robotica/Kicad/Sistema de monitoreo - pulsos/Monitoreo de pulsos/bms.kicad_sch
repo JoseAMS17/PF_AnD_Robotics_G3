@@ -365,6 +365,185 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "ESD5B5.0ST1G:ESD5B5.0ST1G"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 1.27 3.048 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "ESD5B5.0ST1G"
+				(at 0.254 7.366 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "C93623:SOD-523_L1.2-W0.8-LS1.6-BI"
+				(at 0 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://lcsc.com/product-detail/Diodes-ESD_ON_ESD5B5-0ST1G_ESD5B5-0ST1G_C93623.html"
+				(at 0 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "onsemi(安森美)"
+				(at 0 -12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "ESD5B5.0ST1G"
+				(at 0 -15.24 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC Part" "C93623"
+				(at 0 -17.78 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "ESD Protection Devices"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "ESD5B5.0ST1G_0_1"
+				(polyline
+					(pts
+						(xy -2.54 1.27) (xy 0 0) (xy -2.54 -1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.51 1.52) (xy -0.51 1.52) (xy 0 1.27) (xy 0 -1.27) (xy 0.51 -1.52) (xy 0.51 -1.52)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy 0 0) (xy 2.54 -1.27) (xy 2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "lcsc_imported:SS12D10G5"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -729,6 +908,121 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:GND"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(junction
 		(at 118.11 78.74)
@@ -737,10 +1031,32 @@
 		(uuid "07234701-f23e-48e8-b1c2-4887b1be4290")
 	)
 	(junction
-		(at 113.03 91.44)
+		(at 107.95 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "15337ed3-78df-47fd-9edb-6c426b52ab37")
+		(uuid "33181fce-d95e-4e10-aaa0-8467210300f5")
+	)
+	(junction
+		(at 115.57 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "49f92323-f731-45f4-b180-2bffdb995814")
+	)
+	(junction
+		(at 99.06 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b0f24c49-ee7c-4414-b239-846a404f23b1")
+	)
+	(wire
+		(pts
+			(xy 115.57 91.44) (xy 115.57 103.124)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "040380cd-fd71-451f-8822-1b32a4f691b3")
 	)
 	(wire
 		(pts
@@ -774,23 +1090,13 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 95.25) (xy 118.11 95.25)
+			(xy 118.11 103.124) (xy 120.65 103.124)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "521e9266-7ec3-486b-82ce-88d490694692")
-	)
-	(wire
-		(pts
-			(xy 113.03 91.44) (xy 113.03 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "56374b26-d813-429d-8fa7-fd1a225ed795")
 	)
 	(wire
 		(pts
@@ -804,13 +1110,23 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 91.44) (xy 118.11 91.44)
+			(xy 107.95 91.44) (xy 115.57 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "73198f13-9417-43df-a844-707cd2dc1e43")
+	)
+	(wire
+		(pts
+			(xy 115.57 91.44) (xy 118.11 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ecec4b3-2c2f-4632-a020-021c875e26d2")
 	)
 	(wire
 		(pts
@@ -834,13 +1150,13 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 91.44) (xy 113.03 91.44)
+			(xy 107.95 99.06) (xy 107.95 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ad8aed26-7d33-4e08-8109-cb90cb52deb0")
+		(uuid "c416ab9b-d5a5-4a22-8f4d-d1a31eaa7ea0")
 	)
 	(wire
 		(pts
@@ -874,6 +1190,26 @@
 	)
 	(wire
 		(pts
+			(xy 100.33 83.82) (xy 99.06 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee5eb4be-f081-42f9-b610-e11839284fa0")
+	)
+	(wire
+		(pts
+			(xy 99.06 83.82) (xy 90.17 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6a7a2f9-5045-4cc6-8595-fe00af9ac6de")
+	)
+	(wire
+		(pts
 			(xy 71.12 69.85) (xy 71.12 80.01)
 		)
 		(stroke
@@ -884,7 +1220,7 @@
 	)
 	(hierarchical_label "BAT+"
 		(shape output)
-		(at 90.17 83.82 0)
+		(at 100.33 83.82 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -939,7 +1275,7 @@
 	)
 	(hierarchical_label "Vout"
 		(shape output)
-		(at 118.11 95.25 0)
+		(at 120.65 103.124 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -950,7 +1286,7 @@
 	)
 	(symbol
 		(lib_id "lcsc_imported:SS12D10G5")
-		(at 113.03 98.806 180)
+		(at 115.57 106.68 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -961,7 +1297,7 @@
 		(fields_autoplaced yes)
 		(uuid "2f8eb822-0a48-4a70-80a1-7394cdc2415c")
 		(property "Reference" "U6"
-			(at 116.84 99.3139 0)
+			(at 119.38 107.1879 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -972,7 +1308,7 @@
 			)
 		)
 		(property "Value" "SS12D10G5"
-			(at 116.84 101.8539 0)
+			(at 119.38 109.7279 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -983,7 +1319,7 @@
 			)
 		)
 		(property "Footprint" "lcsc_footprints:C7431054_SW-TH_SHOU-HAN_SS12D10G4"
-			(at 113.03 88.646 0)
+			(at 115.57 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -994,7 +1330,7 @@
 			)
 		)
 		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2311301507_SHOU-HAN-SS12D10G5_C7431054.pdf"
-			(at 115.316 98.933 0)
+			(at 117.856 106.807 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1005,7 +1341,7 @@
 			)
 		)
 		(property "Description" "SS12D10G5"
-			(at 113.03 98.806 0)
+			(at 115.57 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1016,7 +1352,7 @@
 			)
 		)
 		(property "LCSC" "C7431054"
-			(at 113.03 98.806 0)
+			(at 115.57 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1027,7 +1363,7 @@
 			)
 		)
 		(property "Manufacturer" "SHOU HAN(首韩)"
-			(at 113.03 98.806 0)
+			(at 115.57 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1056,6 +1392,199 @@
 			(project "Monitoreo de pulsos"
 				(path "/d20da240-99d3-476e-a1e4-d6b1d5953540/0d40684a-ab96-4348-a405-06fb24f728fd"
 					(reference "U6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 107.95 109.22 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "49a50ce0-196c-42cd-8292-8a74f6bb148e")
+		(property "Reference" "#PWR011"
+			(at 107.95 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 107.95 114.3 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 107.95 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 107.95 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 107.95 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5ecdf3b8-24cd-45aa-8223-3d65c7456e3a")
+		)
+		(instances
+			(project "Monitoreo de pulsos"
+				(path "/d20da240-99d3-476e-a1e4-d6b1d5953540/0d40684a-ab96-4348-a405-06fb24f728fd"
+					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ESD5B5.0ST1G:ESD5B5.0ST1G")
+		(at 107.95 104.14 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7484531e-a2ba-49b4-b0ca-3be8a698cb1f")
+		(property "Reference" "D17"
+			(at 105.156 102.362 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "ESD5B5.0ST1G"
+			(at 109.22 96.774 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-523"
+			(at 115.57 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Diodes-ESD_ON_ESD5B5-0ST1G_ESD5B5-0ST1G_C93623.html"
+			(at 118.11 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 107.95 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "onsemi(安森美)"
+			(at 120.65 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "ESD5B5.0ST1G"
+			(at 123.19 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C93623"
+			(at 125.73 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "43cd487a-63b1-4da3-8fd7-abf769ad0a67")
+		)
+		(pin "1"
+			(uuid "d0420544-d652-4b17-ac1c-146af66431ea")
+		)
+		(instances
+			(project "Monitoreo de pulsos"
+				(path "/d20da240-99d3-476e-a1e4-d6b1d5953540/0d40684a-ab96-4348-a405-06fb24f728fd"
+					(reference "D17")
 					(unit 1)
 				)
 			)
@@ -1160,6 +1689,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 99.06 93.98 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "89160f38-626e-45f2-ae2d-edb0c5920a72")
+		(property "Reference" "#PWR012"
+			(at 99.06 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 99.06 99.06 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 99.06 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.06 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 99.06 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4aa4c6ca-a13b-400f-beb5-e05c2f89d659")
+		)
+		(instances
+			(project "Monitoreo de pulsos"
+				(path "/d20da240-99d3-476e-a1e4-d6b1d5953540/0d40684a-ab96-4348-a405-06fb24f728fd"
+					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Diode:PMEG6010CEH")
 		(at 107.95 87.63 90)
 		(unit 1)
@@ -1242,6 +1849,121 @@
 			(project "Monitoreo de pulsos"
 				(path "/d20da240-99d3-476e-a1e4-d6b1d5953540/0d40684a-ab96-4348-a405-06fb24f728fd"
 					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ESD5B5.0ST1G:ESD5B5.0ST1G")
+		(at 99.06 88.9 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f2a86af2-79a3-4b8b-91dc-0bee06dd3773")
+		(property "Reference" "D18"
+			(at 101.346 87.63 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "ESD5B5.0ST1G"
+			(at 100.33 81.534 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-523"
+			(at 106.68 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Diodes-ESD_ON_ESD5B5-0ST1G_ESD5B5-0ST1G_C93623.html"
+			(at 109.22 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 99.06 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "onsemi(安森美)"
+			(at 111.76 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "ESD5B5.0ST1G"
+			(at 114.3 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C93623"
+			(at 116.84 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "a3caace4-1fca-4e6b-97c7-82e7741107d4")
+		)
+		(pin "1"
+			(uuid "11710483-a0f2-4bf8-9b66-1d262a8aee22")
+		)
+		(instances
+			(project "Monitoreo de pulsos"
+				(path "/d20da240-99d3-476e-a1e4-d6b1d5953540/0d40684a-ab96-4348-a405-06fb24f728fd"
+					(reference "D18")
 					(unit 1)
 				)
 			)

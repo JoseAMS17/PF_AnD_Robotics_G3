@@ -70,7 +70,40 @@
         }
       },
       "diff_pair_dimensions": [],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "hole_clearance|198245000|108300000|25c9368a-ad8e-4b45-8ddb-6371aa567b3f|adc62e30-dd3a-4907-8608-ac1f65e9fba1",
+          ""
+        ],
+        [
+          "hole_clearance|198245000|108300000|b8a6c920-af6b-40f7-b6bc-9955690e65f7|adc62e30-dd3a-4907-8608-ac1f65e9fba1",
+          ""
+        ],
+        [
+          "hole_clearance|198245000|108500000|2eefd122-589b-4651-9b75-9b49fa8fa545|adc62e30-dd3a-4907-8608-ac1f65e9fba1",
+          ""
+        ],
+        [
+          "hole_clearance|198245000|108500000|3f6fe344-f2f9-44c6-8e1a-7f2716b81f8b|adc62e30-dd3a-4907-8608-ac1f65e9fba1",
+          ""
+        ],
+        [
+          "hole_clearance|198245000|113900000|a009e136-7511-4ae6-bd3f-d49b44da28a2|05e252b1-a01d-4e10-9992-3167d1cc823c",
+          ""
+        ],
+        [
+          "hole_clearance|198245000|113900000|e51304b9-1b44-441e-a29b-77be323b0b69|05e252b1-a01d-4e10-9992-3167d1cc823c",
+          ""
+        ],
+        [
+          "hole_clearance|198245000|114100000|cec044ce-c3ae-4f09-9fc1-bf67c61c0fe8|05e252b1-a01d-4e10-9992-3167d1cc823c",
+          ""
+        ],
+        [
+          "hole_clearance|198245000|114100000|f00d0015-07a7-4995-a8cf-a1ac9adca723|05e252b1-a01d-4e10-9992-3167d1cc823c",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -156,7 +189,7 @@
         "min_track_width": 0.2,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.5,
-        "solder_mask_to_copper_clearance": 0.0,
+        "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -263,7 +296,24 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "pin_not_connected|1130300|1031240|94b1e0f0-585e-41a7-ab38-e09cc6d534dd|00000000-0000-0000-0000-000000000000|/d20da240-99d3-476e-a1e4-d6b1d5953540/0d40684a-ab96-4348-a405-06fb24f728fd|/d20da240-99d3-476e-a1e4-d6b1d5953540/0d40684a-ab96-4348-a405-06fb24f728fd|",
+        ""
+      ],
+      [
+        "pin_to_pin|1358900|952500|6d11986f-0966-4293-99ac-51eb9804d8bc|9e741734-dbbb-4438-a60d-98f3f1d06d61|/d20da240-99d3-476e-a1e4-d6b1d5953540/ad78f218-13db-45b1-9e35-939ef4be595b|/d20da240-99d3-476e-a1e4-d6b1d5953540/ad78f218-13db-45b1-9e35-939ef4be595b|/d20da240-99d3-476e-a1e4-d6b1d5953540/ad78f218-13db-45b1-9e35-939ef4be595b",
+        ""
+      ],
+      [
+        "pin_to_pin|1358900|977900|9e741734-dbbb-4438-a60d-98f3f1d06d61|39530860-a48a-4f95-a815-9f8c9f2ec49d|/d20da240-99d3-476e-a1e4-d6b1d5953540/ad78f218-13db-45b1-9e35-939ef4be595b|/d20da240-99d3-476e-a1e4-d6b1d5953540/ad78f218-13db-45b1-9e35-939ef4be595b|/d20da240-99d3-476e-a1e4-d6b1d5953540",
+        ""
+      ],
+      [
+        "power_pin_not_driven|1460500|520700|8506e617-dbcb-4d2b-88d1-d062d9cf5034|00000000-0000-0000-0000-000000000000|/d20da240-99d3-476e-a1e4-d6b1d5953540|/d20da240-99d3-476e-a1e4-d6b1d5953540|",
+        ""
+      ]
+    ],
     "meta": {
       "version": 0
     },
@@ -665,7 +715,7 @@
         "uuid": "d20da240-99d3-476e-a1e4-d6b1d5953540"
       }
     ],
-    "used_designators": "#FLG1,#PWR1-7,#PWR14-16,#PWR21,R9-10,U2",
+    "used_designators": "#FLG1-2,#PWR1-16,#PWR21-22,#PWR24,D14-18,LED1-2,Q1,R9-10,R28-29,U2",
     "variants": []
   },
   "sheets": [
